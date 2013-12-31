@@ -1,7 +1,7 @@
 {"apiVersion": "2.0.0", "swaggerVersion": "1.2", "apis": [
     {
-        "path": "/licensee",
-        "description": "Operations about licensee"
+        "path": "/licensee.json",
+        "description": "Licensee operations"
     }
 ], "authorizations": {
     "apiKey": {
@@ -14,9 +14,9 @@
     }
 }, "info": {
     "title": "Labs64 NetLicensing RESTful API",
-    "description": "This is a Labs64 NetLicensing RESTful API.  You can find out more about Labs64 NetLicensing \n    at <a href=\"http://www.labs64.com\">http://www.labs64.com</a>.",
+    "description": "This is a Labs64 NetLicensing RESTful API.  You can find out more about Labs64 NetLicensing at <a href=\"http://www.labs64.com\">http://www.labs64.com</a>",
     "termsOfServiceUrl": "https://www.labs64.com/terms-of-service",
     "contact": "info@labs64.com",
-    "license": "Apache 2.0",
-    "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    "license": "",
+    "licenseUrl": ""
 }}

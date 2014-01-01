@@ -39,13 +39,13 @@
 
     $('#input_apiKey').change(function() {
       var key = $('#input_apiKey')[0].value;
-      console.log("key: " + key);
       if(key && key.trim() != "") {
-        console.log("added key " + key);
-        window.authorizations.add("key", new ApiKeyAuthorization("api_key", key, "query"));
-        window.authorizations.add("key2", new ApiKeyAuthorization("Authorization", "XXXX", "header"));
+        console.log("added apiKey " + key);
+        window.authorizations.add("apiKey", new ApiKeyAuthorization("apiKey", key, "query"));
       }
     })
+    window.authorizations.add("basicAuth", new PasswordAuthorization("Authorization", "demo", "demo"));
+
     window.swaggerUi.load();
   });
 
@@ -59,7 +59,7 @@
 
     <form id='api_selector'>
       <div class='input'><input placeholder="http://io.labs64.com/netlicensing/api/v2.0/resources.json" id="input_baseUrl" name="baseUrl" type="text"/></div>
-      <div class='input'><input placeholder="api_key" id="input_apiKey" name="apiKey" type="text"/></div>
+      <div class='input'><input placeholder="apiKey" id="input_apiKey" name="apiKey" type="text"/></div>
       <div class='input'><a id="explore" href="#">Explore</a></div>
     </form>
   </div>

@@ -21,6 +21,7 @@
       window.swaggerUi = new SwaggerUi({
       url: "http://io.labs64.com/netlicensing/api/v2.0/resources.json",
       dom_id: "swagger-ui-container",
+      supportHeaderParams: true,
       supportedSubmitMethods: ['get', 'post', 'put', 'delete'],
       onComplete: function(swaggerApi, swaggerUi){
         if(console) {

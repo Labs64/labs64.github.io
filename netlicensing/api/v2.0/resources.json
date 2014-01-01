@@ -11,8 +11,8 @@
     "authorizations": {
         "apiKey": {
             "type": "apiKey",
-            "keyName": "api_key",
-            "passAs": "header"
+            "keyName": "apiKey",
+            "passAs": "query"
         },
         "basicAuth": {
             "type": "basicAuth"

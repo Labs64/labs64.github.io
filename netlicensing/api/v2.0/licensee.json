@@ -19,10 +19,11 @@
                     "nickname": "validate",
                     "parameters": [
                         {
+                            "paramType": "path",
                             "name": "licenseeNumber",
                             "description": "licensee number with a maximum length of 1000 characters",
-                            "required": true,
-                            "type": "string"
+                            "dataType": "string",
+                            "required": true
                         }
                     ],
                     "responseMessages": [

@@ -1,20 +1,20 @@
 {
-    "apiVersion": "2.0",
     "swaggerVersion": "1.2",
+    "apiVersion": "2.0",
     "basePath": "https://netlicensing.labs64.com/core/v2/rest",
     "resourcePath": "/licensee",
     "produces": [
-        "application/json",
-        "application/xml"
+        "application/xml",
+        "application/json"
     ],
     "apis": [
         {
-            "path": "/{licenseeNumber}/validate",
+            "path": "/licensee/{licenseeNumber}/validate",
             "operations": [
                 {
                     "method": "GET",
                     "summary": "Validates active licenses of the licensee",
-                    "notes": "Returns a licensee validation result",
+                    "notes": "",
                     "type": "Licensee",
                     "nickname": "validate",
                     "parameters": [

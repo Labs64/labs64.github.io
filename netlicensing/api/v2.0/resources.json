@@ -1,6 +1,6 @@
 {
-    "apiVersion": "2.0",
     "swaggerVersion": "1.2",
+    "apiVersion": "2.0",
     "basePath": "http://io.labs64.com/netlicensing/api/v2.0",
     "apis": [
         {

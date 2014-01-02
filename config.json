@@ -1,6 +1,8 @@
 {
   "vars": {
     "@brand-primary": "#E14817",
+    "@font-family-sans-serif": "'Metrophobic', sans-serif",
+    "@font-family-serif": "'Metrophobic', sans-serif",
     "@navbar-inverse-color": "#fff",
     "@navbar-inverse-bg": "#E14817",
     "@navbar-inverse-link-color": "#fff",

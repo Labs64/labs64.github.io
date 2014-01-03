@@ -63,18 +63,10 @@
             }
           },
           response: function(rawResponse) {
-			    if (/^[\],:{}\s]*$/.test(rawResponse.content.data.replace(/\\["\\\/bfnrtu]/g, '@').replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g, ']').replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
-				    try {
-					    var response = JSON.parse(rawResponse.content.data);
-				    } catch (e) {
-					    var response = rawResponse.content.data;
-				    }
-			    } else {
-				    var response = rawResponse.content.data;
-			    }
+            var response;
+            response = JSON.parse(rawResponse.content.data);
             _this.swaggerVersion = response.swaggerVersion;
-            
-	    if (_this.swaggerVersion === "1.2") {
+            if (_this.swaggerVersion === "1.2") {
               return _this.buildFromSpec(response);
             } else {
               return _this.buildFrom1_1Spec(response);
@@ -298,7 +290,7 @@
           this.api.fail("SwaggerResources must have a path.");
         }
         if (this.path.substring(0, 4) === 'http') {
-	  this.url = this.path.replace('{format}', 'json');
+          this.url = this.path.replace('{format}', 'json');
         } else {
           this.url = this.api.basePath + this.path.replace('{format}', 'json');
         }
@@ -313,16 +305,7 @@
             },
             response: function(rawResponse) {
               var response;
-	      if (/^[\],:{}\s]*$/.test(rawResponse.content.data.replace(/\\["\\\/bfnrtu]/g, '@').replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g, ']').replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
-		      try {
-			      var response = JSON.parse(rawResponse.content.data);
-		      } catch (e) {
-			      var response = rawResponse.content.data;
-		      } 
-	      } else {
-		      var response = rawResponse.content.data;
-	      }
-	      
+              response = JSON.parse(rawResponse.content.data);
               return _this.addApiDeclaration(response);
             }
           }
@@ -658,10 +641,10 @@
         parameter = _ref1[_i];
         parameter.name = parameter.name || parameter.type || parameter.dataType;
         type = parameter.type || parameter.dataType;
-	if (typeof(type) != 'undefined' && type.toLowerCase() === 'boolean') {
-		parameter.allowableValues = {};
-		parameter.allowableValues.values = ["true", "false"];
-	}
+        if (type.toLowerCase() === 'boolean') {
+          parameter.allowableValues = {};
+          parameter.allowableValues.values = ["true", "false"];
+        }
         parameter.signature = this.getSignature(type, this.resource.models);
         parameter.sampleJSON = this.getSampleJSON(type, this.resource.models);
         if (parameter["enum"] != null) {
@@ -719,11 +702,11 @@
     }
 
     SwaggerOperation.prototype.isListType = function(type) {
-	    if (typeof(type) != 'undefined' && type.indexOf('[') >= 0) {
-		    return type.substring(type.indexOf('[') + 1, type.indexOf(']'));
-	    } else {
-		    return void 0;
-	    }
+      if (type.indexOf('[') >= 0) {
+        return type.substring(type.indexOf('[') + 1, type.indexOf(']'));
+      } else {
+        return void 0;
+      }
     };
 
     SwaggerOperation.prototype.getSignature = function(type, models) {

@@ -23,7 +23,7 @@
                 dom_id: "swagger-ui-container",
                 headers: { "Authorization": "Basic XXX" },
                 supportHeaderParams: true,
-                supportedSubmitMethods: ['get', 'post', 'put', 'delete', 'options'],
+                supportedSubmitMethods: ['get', 'post', 'put', 'delete'],
                 onComplete: function (swaggerApi, swaggerUi) {
                     if (console) {
                         console.log("Loaded SwaggerUI")
@@ -45,7 +45,7 @@
                 var key = $('#input_apiKey')[0].value;
                 if (key && key.trim() != "") {
                     console.log("added apiKey " + key);
-                    window.authorizations.add("apiKey", new ApiKeyAuthorization("apiKey", key, "header"));
+                    window.authorizations.add("apiKey", new ApiKeyAuthorization("apiKey", key, "query"));
                 }
             })
             window.authorizations.add("basicAuth", new PasswordAuthorization("Authorization", "demo", "demo"));

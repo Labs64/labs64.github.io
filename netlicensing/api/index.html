@@ -45,7 +45,7 @@
                 var key = $('#input_apiKey')[0].value;
                 if (key && key.trim() != "") {
                     console.log("added apiKey " + key);
-                    window.authorizations.add("apiKey", new ApiKeyAuthorization("apiKey", key, "query"));
+                    window.authorizations.add("apiKey", new ApiKeyAuthorization("apiKey", key, "header"));
                 }
             })
             window.authorizations.add("basicAuth", new PasswordAuthorization("Authorization", "demo", "demo"));

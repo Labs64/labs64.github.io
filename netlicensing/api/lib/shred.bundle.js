@@ -1255,7 +1255,7 @@ var createRequest = function(request) {
     },request.timeout);
   }
 
-  request._raw.withCredentials = true;
+  request._raw.xhr.withCredentials = true;
 
   // The `.end()` method will cause the request to fire. Technically, it might
   // have already sent the headers and body.

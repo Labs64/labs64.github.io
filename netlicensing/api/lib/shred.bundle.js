@@ -1151,7 +1151,8 @@ var createRequest = function(request) {
     scheme: request.scheme,
     // Use a provided agent.  'Undefined' is the default, which uses a global
     // agent.
-    agent: request.agent
+    agent: request.agent,
+    withCredentials: true
   };
 
   if (request.logCurl) {

@@ -1254,6 +1254,7 @@ var createRequest = function(request) {
     },request.timeout);
   }
 
+  // L64: allow Authorization for CORS preflight request (OPTIONS)
   request._raw.xhr.withCredentials = true;
 
   // The `.end()` method will cause the request to fire. Technically, it might

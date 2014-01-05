@@ -1663,6 +1663,9 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
         dataType: 'json',
         contentType: false,
         processData: false,
+        xhrFields: {
+          withCredentials: true
+        },
         error: function(data, textStatus, error) {
           return _this.showErrorStatus(_this.wrap(data), _this);
         },

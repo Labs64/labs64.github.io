@@ -1151,8 +1151,7 @@ var createRequest = function(request) {
     scheme: request.scheme,
     // Use a provided agent.  'Undefined' is the default, which uses a global
     // agent.
-    agent: request.agent,
-    withCredentials: true
+    agent: request.agent
   };
 
   if (request.logCurl) {
@@ -1255,7 +1254,7 @@ var createRequest = function(request) {
     },request.timeout);
   }
 
-  request._raw.xhr.withCredentials = true;
+  //request._raw.xhr.withCredentials = true;
 
   // The `.end()` method will cause the request to fire. Technically, it might
   // have already sent the headers and body.

@@ -29,6 +29,7 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-small-business.git"
     },
     "dependencies": {
+        "guidechimp": "^1.6.1",
         "bootstrap": "4.5.0",
         "jquery": "3.5.1"
     },

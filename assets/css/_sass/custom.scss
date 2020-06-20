@@ -14,7 +14,7 @@
 // }
 
 .bg-dark {
-  background-color: #e14817 !important;
+  background-color: #E14817 !important;
 }
 
 a {
@@ -25,6 +25,17 @@ a {
 
 a:hover {
   color: rgba(255, 255, 255, 0.8);
+  text-decoration: underline;
+}
+
+a.card-title {
+  color: #E14817;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a.card-title:hover {
+  color: #E14817;
   text-decoration: underline;
 }
 

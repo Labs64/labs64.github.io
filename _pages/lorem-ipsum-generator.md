@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Lorem Ipsum Generator"
-description: "Lorem Ipsum Generator"
+description: "This lorem ipsum generator is made for all the webdesigners, designers, webmasters and others who need lorem ipsum."
 permalink: /lorem-ipsum-generator/
 ---
 

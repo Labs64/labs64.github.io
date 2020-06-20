@@ -16,3 +16,14 @@
 .bg-dark {
   background-color: #e14817 !important;
 }
+
+a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: underline;
+}

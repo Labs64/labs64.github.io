@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /base64-decoder/
+description: "Base64 Decoder/Encoder"
 ---
 
 ## Base64 Decoder/Encoder

@@ -1,11 +1,14 @@
 - title: Home
   link: /
 
-- title: About
-  link: /about/
+- title: NetLicensing
+  link: https://netlicensing.io
 
-- title: Services
-  link: "/services/"
+- title: GuideChimp
+  link: "https://github.com/Labs64/GuideChimp"
 
-- title: Contact
-  link: "/contact/"
+- title: Laravel Boilerplate
+  link: "https://github.com/Labs64/laravel-boilerplate"
+
+- title: Credit Tracker
+  link: "https://wordpress.org/plugins/credit-tracker/"

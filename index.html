@@ -29,6 +29,22 @@ layout: default
     <!-- Page Features -->
     <div class="row text-center">
 
+
+      {% for page in site.pages %}
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">{{ page.title }}</h4>
+                <p class="card-text">{{ page.content }}</p>
+              </div>
+              <div class="card-footer">
+                <a href="{{ page.link }}" class="btn btn-primary">Run it</a>
+              </div>
+            </div>
+          </div>
+      {% endfor %}
+
+
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
           <div class="card-body">

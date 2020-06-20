@@ -1,8 +1,9 @@
 title: Labs64 Developers ToolBox
+subtitle: "Convertors, Viewers, Minifier, Validators und many other useful online tools"
 description: "Useful Online Tools like Convertors, Viewers, Minifier, Validators und many others for Developers: XML, JSON, JavaScript, Java, C#, Python, SQL"
 
 baseurl: /
-color-scheme: "#e14817"
+color-scheme: "#E14817"
 
 sass:
   sass_dir: /assets/css/_sass

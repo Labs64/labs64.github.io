@@ -1,8 +1,8 @@
 title: Labs64 Developers ToolBox
-description: Labs64 Developers ToolBox :: Collection of useful tools
+description: "Labs64 Developers ToolBox :: Collection of useful tools"
 
 baseurl: /
-color-scheme: "mediumseagreen" # the scheme can be any HEX code like "#00aa55"
+color-scheme: "#e14817"
 
 sass:
   sass_dir: /assets/css/_sass

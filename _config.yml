@@ -1,7 +1,7 @@
-title: Business Frontpage
-description: A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header.
+title: Labs64 Developers ToolBox
+description: Labs64 Developers ToolBox :: Collection of useful tools
 
-baseurl: /business-frontpage
+baseurl: /
 color-scheme: "mediumseagreen" # the scheme can be any HEX code like "#00aa55"
 
 sass:

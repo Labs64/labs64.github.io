@@ -2,6 +2,7 @@
 layout: default
 layout: page
 permalink: /lorem-ipsum-generator/
+title: "Lorem Ipsum Generator"
 description: "Lorem Ipsum Generator"
 ---
 

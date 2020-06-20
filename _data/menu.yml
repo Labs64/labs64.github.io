@@ -1,14 +1,11 @@
 - title: Home
   link: /
 
+- title: labs64.com
+  link: "https://www.labs64.com"
+
 - title: NetLicensing
   link: https://netlicensing.io
 
-- title: GuideChimp
-  link: "https://github.com/Labs64/GuideChimp"
-
-- title: Laravel Boilerplate
-  link: "https://github.com/Labs64/laravel-boilerplate"
-
-- title: Credit Tracker
-  link: "https://wordpress.org/plugins/credit-tracker/"
+- title: Contribute
+  link: "https://github.com/Labs64/labs64.github.io"

@@ -1,26 +1,22 @@
+---
+---
+
 <!DOCTYPE html>
-
-<!--
-  portfolYOU Jekyll theme by Youssef Raafat
-  Free for personal and commercial use under the MIT license
-  https://github.com/YoussefRaafatNasry/portfolYOU
--->
-
-<html lang="en" class="h-100">
-
+<html lang="en">
 {% include head.html %}
 
-<body class="d-flex flex-column h-100">
-
-  <main class="flex-shrink-0 container mt-5">
-  {% include navbar.html %}
-  {{ content }}
-  </main>
-
+<body>
+  {% include navigation.html %} {% include header.html %}
+  <!-- Page Content -->
+  <div class="container mb-5">
+    {{ content }}
+  </div>
+  <!-- /.container -->
   {% include footer.html %}
-  {% include analytics.html %}
-  {% include scripts.html %}
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

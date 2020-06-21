@@ -7,38 +7,6 @@ sitemap:
 <!-- generated-on="{{ site.time | date_to_rfc822 }}" -->
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
-  {% for post in site.posts %}
-    {% unless post.published == false %}
-    <url>
-      <loc>{{ site.url }}{{ post.url | remove: "index.html" }}</loc>
-      {% if post.sitemap.lastmod %}
-        <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-      {% elsif post.date %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      {% if post.sitemap.changefreq %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% else %}
-        <changefreq>weekly</changefreq>
-      {% endif %}
-      {% if post.sitemap.priority %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% else %}
-        <priority>0.4</priority>
-      {% endif %}
-      {% if post.image.url %}
-        {% include image4sitemap.html image=post.image.url %}
-      {% endif %}
-      {% if post.sitemap.images %}
-        {% for post_image in post.sitemap.images %}
-          {% include image4sitemap.html image=post_image %}
-        {% endfor %}
-      {% endif %}
-    </url>
-    {% endunless %}
-  {% endfor %}
   {% for page in site.pages %}
     {% unless page.sitemap.exclude %}
     <url>
@@ -63,38 +31,6 @@ sitemap:
       {% if page.sitemap.images %}
         {% for page_image in page.sitemap.images %}
           {% include image4sitemap.html image=page_image %}
-        {% endfor %}
-      {% endif %}
-    </url>
-    {% endunless %}
-  {% endfor %}
-  {% for casestudy in site.case-studies %}
-    {% unless casestudy.sitemap.exclude %}
-    <url>
-      <loc>{{ site.url }}{{ casestudy.url | remove: "index.html" }}</loc>
-      {% if casestudy.sitemap.lastmod %}
-        <lastmod>{{ casestudy.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-      {% elsif casestudy.date %}
-        <lastmod>{{ casestudy.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      {% if casestudy.sitemap.changefreq %}
-        <changefreq>{{ casestudy.sitemap.changefreq }}</changefreq>
-      {% else %}
-        <changefreq>weekly</changefreq>
-      {% endif %}
-      {% if casestudy.sitemap.priority %}
-        <priority>{{ casestudy.sitemap.priority }}</priority>
-      {% else %}
-        <priority>0.6</priority>
-      {% endif %}
-      {% if casestudy.img %}
-        {% include image4sitemap.html image=casestudy.img %}
-      {% endif %}
-      {% if casestudy.sitemap.images %}
-        {% for casestudy_image in casestudy.sitemap.images %}
-          {% include image4sitemap.html image=casestudy_image %}
         {% endfor %}
       {% endif %}
     </url>

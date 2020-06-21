@@ -1,0 +1,16 @@
+# Excluded images
+
+- id: image-00
+  source: /img/image-00.png
+  exclude: true
+
+# Images attribution
+
+- id: labs64-stage-chevrolet
+  source: /assets/images/labs64-stage-chevrolet.png
+  title: "Labs64 - Innovations Delivered"
+  caption: "Labs64 - Innovations Delivered"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://www.labs64.com

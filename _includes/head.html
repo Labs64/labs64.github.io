@@ -1,18 +1,48 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="{{ site.description }}" />
-  <meta name="author" content="Labs64" />
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ',' }},{{ site.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+  <meta name="author" content="{{ site.copyright }}">
+  <meta name="copyright" content="{{ site.copyright }}">
+  <meta name="robots" content="INDEX, FOLLOW">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.subtitle }}</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" />
+  {% if page.canonical %}
+    {% if page.canonical contains 'http' %}
+      {% assign canonical = page.canonical %}
+    {% else %}
+      {% assign canonical = page.canonical | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+    {% endif %}
+    <link rel="canonical" href="{{ canonical }}">
+  {% else %}
+    {% assign canonical = page.url | prepend: site.baseurl | prepend: site.url %}
+    <link rel="canonical" href="{{ canonical }}">
+  {% endif %}
+
+  <!-- Prefetch resources -->
+  {% if site.dns_prefetch %}
+    {% for dns_prefetch in site.dns_prefetch %}
+    <link rel="dns-prefetch" href="{{ dns_prefetch }}">
+    {% endfor %}
+  {% endif %}
+  {% if page.prefetch %}
+    {% for page_prefetch in page.prefetch %}
+    <link rel="prefetch" href="{{ page_prefetch | prepend: site.baseurl | prepend: site.url }}">
+    {% endfor %}
+  {% endif %}
 
   {% include analytics.html %}
   {% include yandex-metrika.html %}
   {% include opengraph.html %}
   {% include twittercard.html %}
   {% include dublincore.html %}
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url }}">
 
 </head>

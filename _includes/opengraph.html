@@ -1,6 +1,6 @@
 <!-- OpenGraph -->
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %} | {{ site.title }}"/>
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %} | {{ site.subtitle }}"/>
 <meta property="og:site_name" content="{{ site.title }}"/>
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>

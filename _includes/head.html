@@ -1,18 +1,18 @@
 <head>
   <meta charset="utf-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-  />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="{{ site.description }}" />
   <meta name="author" content="Labs64" />
 
-  <title>{{ site.title }} - {{ site.subtitle }}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.subtitle }}</title>
 
   <!-- Bootstrap core CSS -->
   <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" />
 
   {% include analytics.html %}
   {% include yandex-metrika.html %}
+  {% include opengraph.html %}
+  {% include twittercard.html %}
+  {% include dublincore.html %}
 
 </head>

@@ -1,9 +1,22 @@
 title: Labs64 Developers ToolBox
 subtitle: "Convertors, Viewers, Minifier, Validators und many other useful online tools"
 description: "Useful Online Tools like Convertors, Viewers, Minifier, Validators und many others for Developers: XML, JSON, JavaScript, Java, C#, Python, SQL"
+keywords: netlicensing,software license,licensing model,license types,license management,Licensing-as-a-Service,software activation,subscription,floating
+copyright: Labs64 GmbH
+company: Labs64
+company_url: "https://www.labs64.com"
+company_email: info@labs64.com
 
 baseurl: /
 color-scheme: "#E14817"
+
+dns_prefetch:
+ - //go.netlicensing.io
+ - //ui.netlicensing.io
+ - //www.labs64.de
+ - //www.labs64.com
+ - //io.labs64.com
+ - //l64.cc
 
 sass:
   sass_dir: /assets/css/_sass
@@ -14,3 +27,7 @@ include:
 
 exclude:
   - .sass-cache
+
+# SEO
+google_analytics_tracking_id: "UA-32654174-9"
+yandex_metrika_tracking_id: ""

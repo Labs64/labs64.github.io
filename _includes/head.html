@@ -7,7 +7,7 @@
   <meta name="copyright" content="{{ site.copyright }}">
   <meta name="robots" content="INDEX, FOLLOW">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.subtitle }}</title>
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %} | {{ site.subtitle }}</title>
 
   {% if page.canonical %}
     {% if page.canonical contains 'http' %}
@@ -42,7 +42,6 @@
   <!-- Bootstrap core CSS -->
   <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" />
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url }}">
 
 </head>

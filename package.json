@@ -2,6 +2,13 @@
     "title": "Labs64 Developers ToolBox",
     "name": "labs64-developers-toolbox",
     "description": "Useful Online Tools like Convertors, Viewers, Minifier, Validators und many others for Developers: XML, JSON, JavaScript, Java, C#, Python, SQL",
+    "version": "0.0.1",
+    "homepage": "https://io.labs64.com",
+    "author": "Labs64",
+    "contributors": [
+        "NetLicensing (https://netlicensing.io)"
+    ],
+    "license": "Apache",
     "keywords": [
         "developers",
         "tools",
@@ -10,13 +17,6 @@
         "developer",
         "utility",
         "utilities"
-    ],
-    "homepage": "https://io.labs64.com",
-    "version": "0.0.1",
-    "license": "Apache",
-    "author": "Labs64",
-    "contributors": [
-        "NetLicensing (https://netlicensing.io)"
     ],
     "scripts": {
         "start": "npm i"

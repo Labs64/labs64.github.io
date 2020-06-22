@@ -10,6 +10,9 @@ company_email: info@labs64.com
 baseurl: /
 color-scheme: "#E14817"
 
+# Styling
+stage_banner_image: "/assets/images/labs64-stage-chevrolet.png"
+
 dns_prefetch:
  - //go.netlicensing.io
  - //ui.netlicensing.io

@@ -1,8 +1,14 @@
 ---
 layout: page
 title: "NetLicensing Validate Builder"
-description: "Convert between decimal, hexadecimal, octal and binary numbers."
+description: "NetLicensing Validate Builder - at a minimum, your product must call the validate method to retrieve the result of customer licenses validation."
 permalink: /netlicensing-api-builder/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie eu turpis eu semper. Aliquam sed tempor ex. Curabitur pretium auctor tellus. Nulla vel nisl vulputate, ornare sem convallis, mollis eros. Pellentesque in lacus eros. Aliquam non turpis eu ex auctor varius eget vel orci. Aliquam pharetra leo sed risus mattis, at aliquet diam sagittis. Curabitur finibus malesuada ligula, sit amet fermentum ligula cursus nec. Praesent elit dolor, porttitor sit amet egestas a, aliquet sit amet velit. Cras ac dictum urna, at dictum nibh. Etiam ornare eleifend ultrices. Sed non condimentum urna. Sed lacinia ante quis nisl ultrices, nec tempor quam interdum. Duis sagittis fermentum nunc in tincidunt. Maecenas fringilla cursus laoreet.
+NetLicensing Validate Builder - at a minimum, your product must call the validate method to retrieve the result of customer licenses validation.
+
+#### Did you know?
+
+API services cover all licensing aspects, allowing to fully automate your licensing flow, and/or integrate NetLicensing into your business processes: ERP, CRM or Webshop.
+
+However, if you only need basic integration into your product, here is the shortcut to the two most essential NetLicensing RESTful API functions:

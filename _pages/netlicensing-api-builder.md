@@ -10,4 +10,4 @@ NetLicensing Validate Builder helps you to create the validation method call to 
 #### Did you know?
 
 NetLicensing API services cover all licensing aspects, allowing to fully automate your licensing flow, and/or integrate NetLicensing into your business processes: ERP, CRM or Webshop.
-However, if you only need basic integration into your product, there are two [essential NetLicensing RESTful API functions](https://netlicensing.io/wiki/restful-api#essentials): `Validate` and `Create Shop Token`.
+However, if you only need basic integration into your product, there are two [essential NetLicensing RESTful API functions](https://netlicensing.io/wiki/restful-api#essentials): *Validate* and *Create Shop Token*.

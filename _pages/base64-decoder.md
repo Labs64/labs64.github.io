@@ -13,13 +13,14 @@ Base64 encoding schemes are commonly used when there is a need to encode binary 
 
 <form>
   <div class="form-group">
-    <label for="inputContainer">Decode from Base64 format</label>
+    <label for="inputContainer">Decode/Encode from/to Base64 format</label>
     <textarea class="form-control" id="inputContainer" rows="5"></textarea>
   </div>
   <button id="decodeBtn" type="button" class="btn btn-primary">Decode</button>
   <button id="encodeBtn" type="button" class="btn btn-primary">Encode</button>
+  <br>
   <div class="form-group">
-    <label for="outputContainer">Decode/encode output</label>
+    <label for="outputContainer">Decode/Encode output</label>
     <textarea class="form-control" id="outputContainer" rows="5"></textarea>
   </div>
 </form>

@@ -1,5 +1,3 @@
-
-
 ---
 layout: page
 title: "Binary to Decimal to Hexadecimal Converter"

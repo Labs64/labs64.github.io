@@ -1,4 +1,4 @@
-name: Build labs64.github.io
+name: Build io.labs64.com
 
 on: [push]
 

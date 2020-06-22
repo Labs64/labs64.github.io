@@ -1,5 +1,6 @@
 # Include your project-specific ignores in this file
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+.htaccess
 .idea
 *.iml
 .DS_Store
@@ -7,3 +8,6 @@ Thumbs.db
 .buildpath
 .project
 .settings*
+node_modules/
+/dist/
+npm-debug.log*

@@ -35,6 +35,5 @@
         "jquery": "3.5.1",
         "guidechimp": "^1.6.1"
     },
-    "devDependencies": {
-    }
+    "devDependencies": {}
 }

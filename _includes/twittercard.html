@@ -4,4 +4,4 @@
 <meta name="twitter:creator" content="@labs_sixty_four">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %} | {{ site.subtitle }}"/>
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
-<meta name="twitter:image" content="{% if page.image.url %}{{ page.image.url | prepend: site.baseurl | prepend: site.url }}{% else %}{{ '/assets/images/labs64-stage-chevrolet.png' | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>
+<meta name="twitter:image" content="{% if page.image.url %}{{ page.image.url | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.stage_banner_image | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>

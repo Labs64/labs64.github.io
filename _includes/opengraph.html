@@ -4,4 +4,4 @@
 <meta property="og:site_name" content="{{ site.title }}"/>
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
-<meta property="og:image" content="{% if page.image.url %}{{ page.image.url | prepend: site.baseurl | prepend: site.url }}{% else %}{{ '/assets/images/labs64-stage-chevrolet.png' | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>
+<meta property="og:image" content="{% if page.image.url %}{{ page.image.url | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.stage_banner_image | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>

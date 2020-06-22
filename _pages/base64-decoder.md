@@ -5,4 +5,20 @@ description: "Encode/decode Base64-encoding; escape XML, URL's and ECMAScript; t
 permalink: /base64-decoder/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie eu turpis eu semper. Aliquam sed tempor ex. Curabitur pretium auctor tellus. Nulla vel nisl vulputate, ornare sem convallis, mollis eros. Pellentesque in lacus eros. Aliquam non turpis eu ex auctor varius eget vel orci. Aliquam pharetra leo sed risus mattis, at aliquet diam sagittis. Curabitur finibus malesuada ligula, sit amet fermentum ligula cursus nec. Praesent elit dolor, porttitor sit amet egestas a, aliquet sit amet velit. Cras ac dictum urna, at dictum nibh. Etiam ornare eleifend ultrices. Sed non condimentum urna. Sed lacinia ante quis nisl ultrices, nec tempor quam interdum. Duis sagittis fermentum nunc in tincidunt. Maecenas fringilla cursus laoreet.
+An online tool that does exactly what it says; decodes Base64 encoding and encodes into it quickly and easily. Base64 encode your data in a hassle-free way, or decode it into human-readable format.
+
+### Did you know?
+
+Base64 encoding schemes are commonly used when there is a need to encode binary data that needs be stored and transferred over media that are designed to deal with textual data. This is to ensure that the data remains intact without modification during transport. Base64 is used commonly in a number of applications including email via MIME, and storing complex data in XML or JSON.
+
+<form>
+  <div class="form-group">
+    <label for="inputBase64">Decode from Base64 format</label>
+    <textarea class="form-control" id="inputBase64" rows="3"></textarea>
+  </div>
+  <button type="button" class="btn btn-primary">Decode</button>
+  <div class="form-group">
+    <label for="outputDecodeEncode">Decode/encode output</label>
+    <textarea class="form-control" id="outputDecodeEncode" rows="5"></textarea>
+  </div>
+</form>

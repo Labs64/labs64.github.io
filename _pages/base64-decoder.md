@@ -22,3 +22,5 @@ Base64 encoding schemes are commonly used when there is a need to encode binary 
     <textarea class="form-control" id="outputDecodeEncode" rows="5"></textarea>
   </div>
 </form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.1.0/base64.min.js"></script>

@@ -13,14 +13,33 @@ Base64 encoding schemes are commonly used when there is a need to encode binary 
 
 <form>
   <div class="form-group">
-    <label for="inputBase64">Decode from Base64 format</label>
-    <textarea class="form-control" id="inputBase64" rows="5"></textarea>
+    <label for="inputContainer">Decode from Base64 format</label>
+    <textarea class="form-control" id="inputContainer" rows="5"></textarea>
   </div>
-  <button type="button" class="btn btn-primary">Decode</button>
+  <button id="decodeBtn" type="button" class="btn btn-primary">Decode</button>
+  <button id="encodeBtn" type="button" class="btn btn-primary">Encode</button>
   <div class="form-group">
-    <label for="outputDecodeEncode">Decode/encode output</label>
-    <textarea class="form-control" id="outputDecodeEncode" rows="5"></textarea>
+    <label for="outputContainer">Decode/encode output</label>
+    <textarea class="form-control" id="outputContainer" rows="5"></textarea>
   </div>
 </form>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.1.0/base64.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.1.0/base64.min.js"></script>
+<script>
+  document.getElementById('decodeBtn').onclick = function() {
+    var inputData = document.getElementById('inputContainer').value;
+
+    var outputData = window.atob(inputData);
+    // TODO: var outputData = Base64.decode(inputData);
+
+    document.getElementById('outputContainer').value = outputData;
+  };
+  document.getElementById('encodeBtn').onclick = function() {
+    var inputData = document.getElementById('inputContainer').value;
+
+    var outputData = window.btoa(inputData);
+    // TODO: var outputData = Base64.encode(inputData);
+
+    document.getElementById('outputContainer').value = outputData;
+  };
+</script>

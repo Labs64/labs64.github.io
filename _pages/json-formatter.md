@@ -21,8 +21,11 @@ JSON Formatter and JSON Validator help to format and validate your JSON data.
 </form>
 
 <script>
-  var inputData = document.getElementById('inputContainer').value;
-  document.getElementById('outputContainer').value = JSON.stringify(JSON.parse(inputData), null, 2);
+  document.getElementById('actionBtn').onclick = function() {
+    var inputData = document.getElementById('inputContainer').value;
+    var outputData = JSON.stringify(JSON.parse(inputData), null, 2);
+    document.getElementById('outputContainer').value = outputData;
+  };
 </script>
 
 #### Did you know?

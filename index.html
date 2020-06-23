@@ -17,15 +17,6 @@ layout: default
     </div>
     <!-- /.row -->
 
-    <!-- Call to Action Well -->
-    <div class="card text-white my-5 py-4 text-center">
-      <div class="card-body">
-        <a title="NetLicensing Affiliates Banner" href="https://netlicensing.io/affiliates/?utm_source=toolbox&amp;utm_medium=banner&amp;utm_campaign=labs64_toolbox&amp;utm_content=image">
-          <img border="0" alt="NetLicensing Affiliates Banner" src="https://netlicensing.io/img/netlicensing-affiliates-banner-970x250.png">
-        </a>
-      </div>
-    </div>
-
     <!-- ToolBox -->
     <div class="row text-center">
 
@@ -42,6 +33,16 @@ layout: default
               </div>
             </div>
           </div>
+          {% if forloop.rindex = 3 %}
+          <!-- Call to Action Well -->
+          <div class="card text-white my-5 py-4 text-center">
+            <div class="card-body">
+              <a title="NetLicensing Affiliates Banner" href="https://netlicensing.io/affiliates/?utm_source=toolbox&amp;utm_medium=banner&amp;utm_campaign=labs64_toolbox&amp;utm_content=image">
+                <img border="0" alt="NetLicensing Affiliates Banner" src="https://netlicensing.io/img/netlicensing-affiliates-banner-970x250.png">
+              </a>
+            </div>
+          </div>
+          {% endif %}
         {% endif %}
       {% endfor %}
 

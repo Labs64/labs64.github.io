@@ -13,3 +13,7 @@
 - title: Start Tour
   link: "#"
   id: start-tour
+
+- title: GitHub
+  link: "https://github.com/Labs64/labs64.github.io"
+  class: fa-github

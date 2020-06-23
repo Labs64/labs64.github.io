@@ -19,8 +19,10 @@ layout: default
     <!-- ToolBox -->
     <div class="row text-center">
 
+      {% assign i = 0 %}
       {% for page in site.pages %}
         {% if page.layout == 'page' %}
+          {% assign i = i | plus:1 %}
           <div class="col-lg-3 col-md-6 mb-4" id="{{ page.title | slugify }}">
             <div class="card h-100">
               <div class="card-body">
@@ -28,11 +30,11 @@ layout: default
                 <p class="card-text">{{ page.description }}</p>
               </div>
               <div class="card-footer">
-                <a href="{{ page.permalink }}" title="{{ page.title }}" class="btn btn-primary">Run it {{ forloop.index }}</a>
+                <a href="{{ page.permalink }}" title="{{ page.title }}" class="btn btn-primary">Run it {{ i }}</a>
               </div>
             </div>
           </div>
-          {% if forloop.index == 4 %}
+          {% if i == 4 %}
           <!-- Call to Action Well -->
           <div class="card text-white my-5 py-4 text-center">
             <div class="card-body">

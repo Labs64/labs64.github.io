@@ -3,6 +3,7 @@ layout: page
 title: "JSON Formatter"
 description: "JSON Formatter and JSON Validator help to format and validate your JSON data."
 permalink: /json-formatter/
+status: ready
 ---
 
 JSON Formatter and JSON Validator help to format and validate your JSON data.

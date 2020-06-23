@@ -3,6 +3,7 @@ layout: page
 title: "NetLicensing Validate Builder"
 description: "NetLicensing Validate Builder allows you to prepare a RESTful API call to retrieve the results of customer licenses validation."
 permalink: /netlicensing-api-builder/
+status: planned
 ---
 
 NetLicensing Validate Builder helps you to create the validation method call to retrieve the result of customer licenses validation.

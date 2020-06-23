@@ -3,6 +3,7 @@ layout: page
 title: "Base64 Decoder/Encoder"
 description: "Encode/decode Base64-encoding; escape XML, URL's and ECMAScript; translate to UTF-8."
 permalink: /base64-decoder/
+status: ready
 ---
 
 An online tool that does exactly what it says; decodes Base64 encoding and encodes into it quickly and easily. Base64 encode your data in a hassle-free way, or decode it into human-readable format.

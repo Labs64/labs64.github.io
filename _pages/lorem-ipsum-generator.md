@@ -3,6 +3,7 @@ layout: page
 title: "Lorem Ipsum Generator"
 description: "This lorem ipsum generator is made for all the webdesigners, designers, webmasters and others who need lorem ipsum."
 permalink: /lorem-ipsum-generator/
+status: planned
 ---
 
 This handy tool helps you create dummy text for all your layout needs.

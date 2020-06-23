@@ -3,6 +3,7 @@ layout: page
 title: "Domain Authority Checker"
 description: "These are set of tools related to SEO for any website. Search engine optimization is essential for many websites to gain organic search traffic."
 permalink: /da-checker/
+status: planned
 ---
 
 This domain authority checker will let you bulk check the domain authority (DA) and page authority (PA) of a list of URLs. Enter your URLs into the box below.

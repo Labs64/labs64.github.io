@@ -1,5 +1,4 @@
 <script src="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/guidechimp.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/plugins/googleAnalytics.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/guidechimp.min.css">
 <script>
 var tourToolbox = [
@@ -30,19 +29,8 @@ var tourToolbox = [
   },
 ];
 
-GuideChimp.extend(guideChimpPluginGoogleAnalytics);
-
 var guideChimp = new GuideChimp(tourToolbox, {
-  position: 'left',
   scrollPadding: 50
-});
-// GuideChimp->GoogleAnalytics plugin - https://github.com/Labs64/GuideChimp/tree/master/plugins/googleAnalytics
-guideChimp.gaOn('onAfterChange', 'Toolbox Tour', (to, from) => {
-  return {
-    event_category: 'Guided Tour (GuideChimp)',
-    event_label: 'Step (' + to.step + '): ' + to.title,
-    value: to.step
-  };
 });
 
 document.getElementById('start-tour').onclick = function() {

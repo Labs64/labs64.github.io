@@ -6,21 +6,33 @@ var tourToolbox = [
   {
     title: 'Made with GuideChimp',
     description: 'This Tour was made with GuideChimp.',
+    buttons: [
+        {
+            title: 'Add GuideChimp to your website',
+            class: 'guidechimp-button',
+            onClick: function () {
+                window.location.href = 'https://github.com/Labs64/GuideChimp';
+            }
+        }
+    ]
   },
   {
     element: '#base64-decoder-encoder',
     title: 'Base64 Decoder/Encoder',
     description: 'Encode/decode Base64-encoding; escape XML, URL and ECMAScript.',
+    position: 'bottom',
   },
   {
     element: '#netlicensing-validate-builder',
     title: 'NetLicensing Validate Builder',
     description: 'NetLicensing Validate Builder - at a minimum, your product must call the validate method to retrieve the result of customer licenses validation.',
+    position: 'bottom',
   },
   {
     element: '#nlic-projects',
     title: 'Labs64 Projects',
     description: 'NetLicensing, GuideChimp, Laravel Boilerplate, Credit Tracker',
+    position: 'top',
   },
 ];
 

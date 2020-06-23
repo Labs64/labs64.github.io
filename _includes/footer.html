@@ -4,6 +4,20 @@
     <p class="m-0 text-center text-white">
       Copyright &copy; 2010-2020 <a href="https://www.labs64.com" target="_blank">Labs64 GmbH</a>. All Rights Reserved.
     </p>
+    <div class="col-md-4 NL_social">
+        <p>
+        {% for media in site.data.socialmedia %}
+            {% if media.url %}
+                {% if media.url contains 'http' %}
+                    {% assign link = media.url %}
+                {% else %}
+                    {% assign link = media.url | prepend: site.baseurl | prepend: site.url %}
+                {% endif %}
+                <a data-toggle="tooltip" data-placement="top" title="{{ media.title }}" target="_blank" href="{{ link }}"><i class="fa {{ media.class }}"></i></a>
+            {% endif %}
+        {% endfor %}
+        </p>
+    </div>
   </div>
   <!-- /.container -->
 </footer>

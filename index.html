@@ -28,7 +28,7 @@ layout: default
                 <p class="card-text">{{ page.description }}</p>
               </div>
               <div class="card-footer">
-                <a href="{{ page.permalink }}" title="{{ page.title }}" class="btn btn-primary">Run it</a>
+                <a href="{{ page.permalink }}" title="{{ page.title }}" class="btn btn-primary">Run it {{ forloop.index }}</a>
               </div>
             </div>
           </div>

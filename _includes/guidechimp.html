@@ -4,19 +4,32 @@
 <script>
 var tourToolbox = [
   {
-    element: 'h3#instant-validate-api-access ~ p.change-description',
-    title: 'Instant validate API access',
-    description: 'Get instant access the essential NetLicensing RESTful API methods and see how to validate customer directly in the Management Console.',
+    title: 'Made with GuideChimp',
+    description: 'This Tour was made with GuideChimp.',
+    buttons: [
+        {
+            title: 'Add GuideChimp to your website',
+            class: 'guidechimp-button',
+            onClick: function () {
+                alert("Step button click");
+            }
+        }
+    ]
   },
   {
-    element: 'h3#labs64-netlicensing-for-github-teacher-toolbox ~ p.change-description',
-    title: 'Labs64 NetLicensing for GitHub Teacher Toolbox',
-    description: 'Great news for all teachers - Labs64 NetLicensing partnered with GitHub and offers NetLicensing Teacher (Basic) Plan for FREE all GitHub Teacher Toolbox users.',
+    element: '#base64-decoder-encoder',
+    title: 'Base64 Decoder/Encoder',
+    description: 'Encode/decode Base64-encoding; escape XML, URL's and ECMAScript; translate to UTF-8.',
   },
   {
-    element: 'h3#vendor-usage-page ~ p.change-description',
-    title: 'Vendor Usage Page',
-    description: 'Easily verify the limits (active products, customers) and available features and licensing models within your NetLicensing vendor account.',
+    element: '#netlicensing-validate-builder',
+    title: 'NetLicensing Validate Builder',
+    description: 'NetLicensing Validate Builder - at a minimum, your product must call the validate method to retrieve the result of customer licenses validation.',
+  },
+  {
+    element: '#nlic-projects',
+    title: 'Labs64 Projects',
+    description: 'NetLicensing, GuideChimp, Laravel Boilerplate, Credit Tracker',
   },
 ];
 

@@ -7,15 +7,15 @@
 
   <div class="col-lg-3 col-md-6 mb-4">
     <div class="card border-0 shadow h-100">
-      <a href="{{ project.link }}"><img class="card-img-top" src="{{ site.baseurl }}{{ project.image }}" alt="{{ project.name }}" /></a>
+      <a href="{{ project.link }}" title="{{ project.name }}"><img class="card-img-top" src="{{ site.baseurl }}{{ project.image }}" alt="{{ project.name }}" /></a>
       <div class="card-body">
-        <a href="{{ project.link }}"><h4 class="card-title">{{ project.name }}</h4></a>
+        <a href="{{ project.link }}" title="{{ project.name }}"><h4 class="card-title">{{ project.name }}</h4></a>
         <p class="card-text">
           {{ project.description }}
         </p>
       </div>
       <div class="card-footer">
-        <a href="{{ project.link }}" class="btn btn-primary">Find Out More!</a>
+        <a href="{{ project.link }}" title="{{ project.name }}" class="btn btn-primary">Find Out More!</a>
       </div>
     </div>
   </div>

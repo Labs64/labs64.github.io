@@ -25,18 +25,12 @@ An online tool that does exactly what it says; decodes Base64 encoding and encod
 <script>
   document.getElementById('decodeBtn').onclick = function() {
     var inputData = document.getElementById('inputContainer').value;
-
     var outputData = window.atob(inputData);
-    // TODO: var outputData = Base64.decode(inputData);
-
     document.getElementById('outputContainer').value = outputData;
   };
   document.getElementById('encodeBtn').onclick = function() {
     var inputData = document.getElementById('inputContainer').value;
-
     var outputData = window.btoa(inputData);
-    // TODO: var outputData = Base64.encode(inputData);
-
     document.getElementById('outputContainer').value = outputData;
   };
 </script>

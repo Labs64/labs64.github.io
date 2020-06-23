@@ -11,7 +11,6 @@ layout: default
       <div class="col-lg-5">
         <h1 class="font-weight-light">{{ site.title }}</h1>
         <p>{{ site.description }}</p>
-        <a id="see-on-github" class="btn btn-primary" href="https://github.com/Labs64/labs64.github.io">See on GitHub &raquo;</a>
       </div>
       <!-- /.col-md-4 -->
     </div>
@@ -25,15 +24,15 @@ layout: default
           <div class="col-lg-3 col-md-6 mb-4" id="{{ page.title | slugify }}">
             <div class="card h-100">
               <div class="card-body">
-                <a href="{{ page.permalink }}"><h4 class="card-title">{{ page.title }}</h4></a>
+                <a href="{{ page.permalink }}" title="{{ page.title }}"><h4 class="card-title">{{ page.title }}</h4></a>
                 <p class="card-text">{{ page.description }}</p>
               </div>
               <div class="card-footer">
-                <a href="{{ page.permalink }}" class="btn btn-primary">Run it</a>
+                <a href="{{ page.permalink }}" title="{{ page.title }}" class="btn btn-primary">Run it</a>
               </div>
             </div>
           </div>
-          {% if forloop.rindex = 3 %}
+          {% if forloop.index = 3 %}
           <!-- Call to Action Well -->
           <div class="card text-white my-5 py-4 text-center">
             <div class="card-body">

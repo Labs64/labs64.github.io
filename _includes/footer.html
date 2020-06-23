@@ -4,8 +4,7 @@
     <p class="m-0 text-center text-white">
       Copyright &copy; 2010-2020 <a href="https://www.labs64.com" target="_blank">Labs64 GmbH</a>. All Rights Reserved.
     </p>
-    <div class="col-md-4 NL_social">
-        <p>
+        <p class="m-0 text-center text-white">
         {% for media in site.data.socialmedia %}
             {% if media.url %}
                 {% if media.url contains 'http' %}
@@ -17,7 +16,6 @@
             {% endif %}
         {% endfor %}
         </p>
-    </div>
   </div>
   <!-- /.container -->
 </footer>

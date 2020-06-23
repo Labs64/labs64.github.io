@@ -3,7 +3,7 @@
 #  class: fa-rss
 
 - title: LinkedIn
-  url: https://www.linkedin.com/showcase/netlicensing/
+  url: https://www.linkedin.com/company/labs64-gmbh
   class: fa-linkedin
 
 - title: Xing
@@ -15,9 +15,13 @@
   class: fa-github
 
 - title: Facebook
-  url: https://www.facebook.com/netlicensing
+  url: https://www.facebook.com/Labs64
   class: fa-facebook
 
 - title: Twitter
-  url: https://twitter.com/netlicensing
+  url: https://twitter.com/labs_sixty_four
   class: fa-twitter
+
+- title: YouTube
+  url: https://www.youtube.com/channel/UCFKYN9Rh79JN8QlYt03ZrsA
+  class: fa-youtube

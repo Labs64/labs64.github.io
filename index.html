@@ -28,9 +28,18 @@ layout: default
               <div class="card-body">
                 <a href="{{ page.permalink }}" title="{{ page.title }}"><h4 class="card-title">{{ page.title }}</h4></a>
                 <p class="card-text">{{ page.description }}</p>
+                {% case page.status %}
+                {% when 'ready' %}
+                {% assign style = 'badge-success' %}
+                {% when 'planned' %}
+                {% assign style = 'badge-warning' %}
+                {% else %}
+                {% assign style = 'badge-secondary' %}
+                {% endcase %}
+                <span class="badge {{ style }}">{{ page.status }}</span>
               </div>
               <div class="card-footer">
-                <a href="{{ page.permalink }}" title="{{ page.title }}" class="btn btn-primary">Run it {{ i }}</a>
+                <a href="{{ page.permalink }}" title="{{ page.title }}" class="btn btn-primary">Run it</a>
               </div>
             </div>
           </div>

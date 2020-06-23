@@ -16,9 +16,7 @@
       <ul class="navbar-nav ml-auto">
         {% for item in site.data.menu %}
         <li class="nav-item{% if item.link == page.url %} active {% endif %}">
-          <a class="nav-link" {% if item.id %}id="{{ item.id }}"{% endif %} href="{{ site.baseurl }}{{ item.link }}">{{
-            item.title
-          }}</a>
+          <a class="nav-link" {% if item.id %}id="{{ item.id }}"{% endif %} href="{{ site.baseurl }}{{ item.link }}">{% if item.class %}<i class="fa {{ item.class }}"></i>{% endif %} {{ item.title }}</a>
         </li>
         {% endfor %}
       </ul>

@@ -7,10 +7,6 @@ permalink: /base64-decoder/
 
 An online tool that does exactly what it says; decodes Base64 encoding and encodes into it quickly and easily. Base64 encode your data in a hassle-free way, or decode it into human-readable format.
 
-#### Did you know?
-
-Base64 encoding schemes are commonly used when there is a need to encode binary data that needs be stored and transferred over media that are designed to deal with textual data. This is to ensure that the data remains intact without modification during transport. Base64 is used commonly in a number of applications including email via MIME, and storing complex data in XML or JSON.
-
 <form>
   <div class="form-group">
     <label for="inputContainer">Decode/Encode from/to Base64 format</label>
@@ -44,3 +40,7 @@ Base64 encoding schemes are commonly used when there is a need to encode binary 
     document.getElementById('outputContainer').value = outputData;
   };
 </script>
+
+#### Did you know?
+
+Base64 encoding schemes are commonly used when there is a need to encode binary data that needs be stored and transferred over media that are designed to deal with textual data. This is to ensure that the data remains intact without modification during transport. Base64 is used commonly in a number of applications including email via MIME, and storing complex data in XML or JSON.

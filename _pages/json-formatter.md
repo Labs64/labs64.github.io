@@ -20,15 +20,9 @@ JSON Formatter and JSON Validator help to format and validate your JSON data.
   </div>
 </form>
 
-<script src="https://unpkg.com/prettier@2.0.5/standalone.js"></script>
-<script src="https://unpkg.com/prettier@2.0.5/parser-graphql.js"></script>
 <script>
   var inputData = document.getElementById('inputContainer').value;
-  var outputData = prettier.format(inputData, {
-    parser: "graphql",
-    plugins: prettierPlugins,
-  });
-  document.getElementById('outputContainer').value = outputData;
+  document.getElementById('outputContainer').value = JSON.stringify(JSON.parse(inputData), null, 2);
 </script>
 
 #### Did you know?

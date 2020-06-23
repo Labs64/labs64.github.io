@@ -26,7 +26,6 @@ layout: default
           <div class="col-lg-3 col-md-6 mb-4" id="{{ page.title | slugify }}">
             <div class="card h-100">
               <div class="card-body">
-                <a href="{{ page.permalink }}" title="{{ page.title }}"><h4 class="card-title">{{ page.title }}</h4></a>
                 {% case page.status %}
                 {% when 'ready' %}
                 {% assign style = 'badge-success' %}
@@ -36,6 +35,7 @@ layout: default
                 {% assign style = 'badge-secondary' %}
                 {% endcase %}
                 <span class="badge {{ style }}">{{ page.status }}</span>
+                <a href="{{ page.permalink }}" title="{{ page.title }}"><h4 class="card-title">{{ page.title }}</h4></a>
                 <p class="card-text">{{ page.description }}</p>
               </div>
               <div class="card-footer">

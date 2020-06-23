@@ -6,7 +6,7 @@
   <meta name="author" content="{{ site.copyright }}">
   <meta name="copyright" content="{{ site.copyright }}">
   <meta name="robots" content="INDEX, FOLLOW">
-  
+
   <meta name="yandex-verification" content="52660cdf8f013ad8" />
 
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %} | {{ site.subtitle }}</title>
@@ -41,7 +41,7 @@
   {% include twittercard.html %}
   {% include dublincore.html %}
 
-  <!-- Bootstrap core CSS -->
+  <link rel="shortcut icon" href="{{ 'favicon.ico' | absolute_url }}" type="image/x-icon">
   <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" />
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url }}">

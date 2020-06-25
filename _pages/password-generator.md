@@ -9,12 +9,12 @@ status: ready
 Use our random password generator to create strong passwords for all your online accounts. Mix letters, numbers and symbols for the ultimate in security.
 
 <form>
-  <div class="form-number">
-    <input class="form-check-input" type="checkbox" value="8" id="passwordLength">
+  <div class="form-group">
+    <input class="form-check-input" type="number" value="12" id="passwordLength" min="8" max="256">
     <label class="form-check-label" for="passwordLength">Password Length</label>
   </div>
 
-  <div class="form-check">
+  <div class="form-group">
     <input class="form-check-input" type="checkbox" value="" id="useUpperCase">
     <label class="form-check-label" for="useUpperCase">Use Uppercase</label>
 
@@ -24,14 +24,14 @@ Use our random password generator to create strong passwords for all your online
     <input class="form-check-input" type="checkbox" value="" id="useSpecialChars">
     <label class="form-check-label" for="useSpecialChars">Use Symbols</label>
   </div>
+
   <button id="actionBtn" type="button" class="btn btn-primary">Format</button>
+
+  <div class="form-group">
+    <label for="generatedPassword">Generated Password</label>
+    <input type="text" class="form-control" id="generatedPassword" placeholder="...">
+  </div>
 </form>
-
-<div class="form-group">
-  <label for="generatedPassword">Generated Password</label>
-  <input type="number" class="form-control" id="generatedPassword" placeholder="..." min="10" max="256">
-</div>
-
 
 <script>
   document.getElementById('actionBtn').onclick = function() {

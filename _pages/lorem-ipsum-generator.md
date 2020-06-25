@@ -20,10 +20,7 @@ This handy tool helps you create dummy text for all your layout needs.
 <script src="{{ site.baseurl }}/assets/vendor/mipsum/mipsum.min.js"></script>
 <script>
   document.getElementById('actionBtn').onclick = function() {
-    const outputData = mIpsum({
-      pNum: 7,
-      resultType: 'text',
-    })
+    const outputData = mIpsum({ pNum: 7, resultType: 'text' });
     document.getElementById('outputContainer').value = outputData;
   };
 </script>

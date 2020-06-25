@@ -3,7 +3,7 @@ layout: page
 title: "Timestamp to Date Converter"
 description: "Convert timestamp to date or date to timestamp easily."
 permalink: /timestamp-converter/
-status: planned
+status: ready
 ---
 
 Several date to millisecond calculators, useful when coding countdown timers, cookie expiration settings or other date related scripts.
@@ -43,7 +43,7 @@ Several date to millisecond calculators, useful when coding countdown timers, co
 <script>
   document.getElementById('actionBtn1').onclick = function() {
     var inputData = document.getElementById('timestamp1').value;
-    var outputData = new Date(parseInt(inputData)).toLocaleString();
+    var outputData = new Date(parseInt(inputData)).toISOString();
     document.getElementById('date1').value = outputData;
   };
 

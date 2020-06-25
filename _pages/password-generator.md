@@ -29,7 +29,7 @@ Use our random password generator to create strong passwords for all your online
 
   <div class="form-group">
     <label for="generatedPassword">Generated Password</label>
-    <input type="text" class="form-control" id="generatedPassword" placeholder="...">
+    <input type="text" class="form-control" id="generatedPassword">
   </div>
 </form>
 
@@ -40,18 +40,18 @@ Use our random password generator to create strong passwords for all your online
     var useNumbers = document.getElementById('useNumbers').checked;
     var useSpecialChars = document.getElementById('useSpecialChars').checked;
 
-    const chars = 'abcdefghijklmnopqrstuvwxyz'
-    const numberChars = '0123456789'
-    const specialChars = '!"£$%^&*()'
+    const chars = 'abcdefghijklmnopqrstuvwxyz';
+    const numberChars = '0123456789';
+    const specialChars = '!"£$%^&*()';
 
     const usableChars = chars +
       (useUpperCase ? chars.toUpperCase() : '') +
       (useNumbers ? numberChars : '') +
-      (useSpecialChars ? specialChars : '')
+      (useSpecialChars ? specialChars : '');
 
-    let generatedPassword = ''
+    let generatedPassword = '';
     for (i = 0; i <= passwordLength; i++) {
-      generatedPassword += usableChars[Math.floor(Math.random() * (usableChars.length))]
+      generatedPassword += usableChars[Math.floor(Math.random() * (usableChars.length))];
     }
 
     document.getElementById('generatedPassword').value = generatedPassword;

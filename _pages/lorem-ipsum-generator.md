@@ -3,7 +3,7 @@ layout: page
 title: "Lorem Ipsum Generator"
 description: "This lorem ipsum generator is made for all the webdesigners, designers, webmasters and others who need lorem ipsum."
 permalink: /lorem-ipsum-generator/
-status: planned
+status: ready
 ---
 
 This handy tool helps you create dummy text for all your layout needs.
@@ -20,7 +20,10 @@ This handy tool helps you create dummy text for all your layout needs.
 <script src="{{ site.baseurl }}/assets/vendor/mipsum/mipsum.min.js"></script>
 <script>
   document.getElementById('actionBtn').onclick = function() {
-    const outputData = mIpsum({ pNum: 2 });
+    const outputData = mIpsum({
+      pNum: 7,
+      resultType: 'text',
+    })
     document.getElementById('outputContainer').value = outputData;
   };
 </script>

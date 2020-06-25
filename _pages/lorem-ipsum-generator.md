@@ -10,7 +10,7 @@ This handy tool helps you create dummy text for all your layout needs.
 
 <form>
   <button id="actionBtn" type="button" class="btn btn-primary">Generate</button>
-  <br>
+  <br><br>
   <div class="form-group">
     <label for="outputContainer">Mussum Ipsum</label>
     <textarea class="form-control" id="outputContainer" rows="5"></textarea>

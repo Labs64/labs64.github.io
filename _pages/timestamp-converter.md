@@ -16,7 +16,7 @@ Several date to millisecond calculators, useful when coding countdown timers, co
     <input type="text" class="form-control" value="0" id="timestamp1">
   </div>
   <button id="actionBtn1" type="button" class="btn btn-primary">Convert</button>
-  <br>
+  <br><br>
   <div class="form-group">
     <label for="date1">Date</label>
     <input type="text" class="form-control" id="date1">
@@ -30,10 +30,10 @@ Several date to millisecond calculators, useful when coding countdown timers, co
 <form>
   <div class="form-group">
     <label for="date2">Date</label>
-    <input type="text" class="form-control" id="date2" placeholder="2020-12-12 12:12:12">
+    <input type="text" class="form-control" id="date2" placeholder="yyyy-MM-dd hh:mm:ss">
   </div>
   <button id="actionBtn2" type="button" class="btn btn-primary">Convert</button>
-  <br>
+  <br><br>
   <div class="form-group">
     <label for="timestamp2">Timestamp</label>
     <input type="text" class="form-control" id="timestamp2">
@@ -43,7 +43,7 @@ Several date to millisecond calculators, useful when coding countdown timers, co
 <script>
   document.getElementById('actionBtn1').onclick = function() {
     var inputData = document.getElementById('timestamp1').value;
-    var outputData = new Date(inputData).toLocaleString();
+    var outputData = new Date(parseInt(inputData)).toLocaleString();
     document.getElementById('date1').value = outputData;
   };
 

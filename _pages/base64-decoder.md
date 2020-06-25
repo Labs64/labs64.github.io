@@ -15,7 +15,7 @@ An online tool that does exactly what it says; decodes Base64 encoding and encod
   </div>
   <button id="decodeBtn" type="button" class="btn btn-primary">Decode</button>
   <button id="encodeBtn" type="button" class="btn btn-primary">Encode</button>
-  <br>
+  <br><br>
   <div class="form-group">
     <label for="outputContainer">Decoded/Encoded output</label>
     <textarea class="form-control" id="outputContainer" rows="5"></textarea>

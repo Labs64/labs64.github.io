@@ -14,7 +14,7 @@ JSON Formatter and JSON Validator help to format and validate your JSON data.
     <textarea class="form-control" id="inputContainer" rows="5"></textarea>
   </div>
   <button id="actionBtn" type="button" class="btn btn-primary">Format</button>
-  <br>
+  <br><br>
   <div class="form-group">
     <label for="outputContainer">Formatted JSON</label>
     <textarea class="form-control" id="outputContainer" rows="5"></textarea>

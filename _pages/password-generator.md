@@ -24,7 +24,7 @@ Use our random password generator to create strong passwords for all your online
     <input type="checkbox" value="" id="useSpecialChars">
   </div>
   <button id="actionBtn" type="button" class="btn btn-primary">Generate</button>
-  <br>
+  <br><br>
   <div class="form-group">
     <label for="generatedPassword">Generated Password</label>
     <input type="text" class="form-control" id="generatedPassword">

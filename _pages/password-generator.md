@@ -17,10 +17,10 @@ Use our random password generator to create strong passwords for all your online
   <div class="form-group">
     <input class="form-check-input" type="checkbox" value="" id="useUpperCase">
     <label class="form-check-label" for="useUpperCase">Use Uppercase</label>
-
+    <br>
     <input class="form-check-input" type="checkbox" value="" id="useNumbers">
     <label class="form-check-label" for="useNumbers">Use Numbers</label>
-
+    <br>
     <input class="form-check-input" type="checkbox" value="" id="useSpecialChars">
     <label class="form-check-label" for="useSpecialChars">Use Symbols</label>
   </div>
@@ -35,22 +35,25 @@ Use our random password generator to create strong passwords for all your online
 
 <script>
   document.getElementById('actionBtn').onclick = function() {
-    const passwordLength = document.getElementById("passwordLength").value;
-    const useUpperCase = document.getElementById("useUpperCase").checked;
-    const useNumbers = document.getElementById("useNumbers").checked;
-    const useSpecialChars = document.getElementById("useSpecialChars").checked;
+    var passwordLength = document.getElementById('passwordLength').value;
+    var useUpperCase = document.getElementById('useUpperCase').checked;
+    var useNumbers = document.getElementById('useNumbers').checked;
+    var useSpecialChars = document.getElementById('useSpecialChars').checked;
 
     const chars = 'abcdefghijklmnopqrstuvwxyz'
     const numberChars = '0123456789'
     const specialChars = '!"£$%^&*()'
+
     const usableChars = chars +
       (useUpperCase ? chars.toUpperCase() : '') +
       (useNumbers ? numberChars : '') +
       (useSpecialChars ? specialChars : '')
+
     let generatedPassword = ''
     for (i = 0; i <= passwordLength; i++) {
       generatedPassword += usableChars[Math.floor(Math.random() * (usableChars.length))]
     }
+
     document.getElementById('generatedPassword').value = generatedPassword;
   };
 </script>

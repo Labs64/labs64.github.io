@@ -10,23 +10,21 @@ Use our random password generator to create strong passwords for all your online
 
 <form>
   <div class="form-group">
-    <label class="form-check-label" for="passwordLength">Password Length</label>
-    <input class="form-check-input" type="number" value="12" id="passwordLength" min="8" max="256">
+    <label for="passwordLength">Password Length</label>
+    <input type="number" value="12" id="passwordLength" min="8" max="256">
   </div>
-
   <div class="form-group">
-    <label class="form-check-label" for="useUpperCase">Use Uppercase</label>
-    <input class="form-check-input" type="checkbox" value="" id="useUpperCase">
+    <label for="useUpperCase">Use Uppercase</label>
+    <input type="checkbox" value="" id="useUpperCase" checked>
     <br>
-    <label class="form-check-label" for="useNumbers">Use Numbers</label>
-    <input class="form-check-input" type="checkbox" value="" id="useNumbers">
+    <label for="useNumbers">Use Numbers</label>
+    <input type="checkbox" value="" id="useNumbers" checked>
     <br>
-    <label class="form-check-label" for="useSpecialChars">Use Symbols</label>
-    <input class="form-check-input" type="checkbox" value="" id="useSpecialChars">
+    <label for="useSpecialChars">Use Symbols</label>
+    <input type="checkbox" value="" id="useSpecialChars">
   </div>
-
   <button id="actionBtn" type="button" class="btn btn-primary">Generate</button>
-
+  <br>
   <div class="form-group">
     <label for="generatedPassword">Generated Password</label>
     <input type="text" class="form-control" id="generatedPassword">

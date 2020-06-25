@@ -8,21 +8,24 @@ status: ready
 
 Use our random password generator to create strong passwords for all your online accounts. Mix letters, numbers and symbols for the ultimate in security.
 
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="8" id="passwordLength">
-  <label class="form-check-label" for="passwordLength">Password Length</label>
+<form>
+  <div class="form-number">
+    <input class="form-check-input" type="checkbox" value="8" id="passwordLength">
+    <label class="form-check-label" for="passwordLength">Password Length</label>
+  </div>
 
-  <input class="form-check-input" type="checkbox" value="" id="useUpperCase">
-  <label class="form-check-label" for="useUpperCase">Use Uppercase</label>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="useUpperCase">
+    <label class="form-check-label" for="useUpperCase">Use Uppercase</label>
 
-  <input class="form-check-input" type="checkbox" value="" id="useNumbers">
-  <label class="form-check-label" for="useNumbers">Use Numbers</label>
+    <input class="form-check-input" type="checkbox" value="" id="useNumbers">
+    <label class="form-check-label" for="useNumbers">Use Numbers</label>
 
-  <input class="form-check-input" type="checkbox" value="" id="useSpecialChars">
-  <label class="form-check-label" for="useSpecialChars">Use Symbols</label>
-</div>
-
-<button id="actionBtn" type="button" class="btn btn-primary">Format</button>
+    <input class="form-check-input" type="checkbox" value="" id="useSpecialChars">
+    <label class="form-check-label" for="useSpecialChars">Use Symbols</label>
+  </div>
+  <button id="actionBtn" type="button" class="btn btn-primary">Format</button>
+</form>
 
 <div class="form-group">
   <label for="generatedPassword">Generated Password</label>

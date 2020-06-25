@@ -10,22 +10,22 @@ Use our random password generator to create strong passwords for all your online
 
 <form>
   <div class="form-group">
-    <input class="form-check-input" type="number" value="12" id="passwordLength" min="8" max="256">
     <label class="form-check-label" for="passwordLength">Password Length</label>
+    <input class="form-check-input" type="number" value="12" id="passwordLength" min="8" max="256">
   </div>
 
   <div class="form-group">
-    <input class="form-check-input" type="checkbox" value="" id="useUpperCase">
     <label class="form-check-label" for="useUpperCase">Use Uppercase</label>
+    <input class="form-check-input" type="checkbox" value="" id="useUpperCase">
     <br>
-    <input class="form-check-input" type="checkbox" value="" id="useNumbers">
     <label class="form-check-label" for="useNumbers">Use Numbers</label>
+    <input class="form-check-input" type="checkbox" value="" id="useNumbers">
     <br>
-    <input class="form-check-input" type="checkbox" value="" id="useSpecialChars">
     <label class="form-check-label" for="useSpecialChars">Use Symbols</label>
+    <input class="form-check-input" type="checkbox" value="" id="useSpecialChars">
   </div>
 
-  <button id="actionBtn" type="button" class="btn btn-primary">Format</button>
+  <button id="actionBtn" type="button" class="btn btn-primary">Generate</button>
 
   <div class="form-group">
     <label for="generatedPassword">Generated Password</label>
@@ -40,11 +40,11 @@ Use our random password generator to create strong passwords for all your online
     var useNumbers = document.getElementById('useNumbers').checked;
     var useSpecialChars = document.getElementById('useSpecialChars').checked;
 
-    const chars = 'abcdefghijklmnopqrstuvwxyz';
-    const numberChars = '0123456789';
-    const specialChars = '!"£$%^&*()';
+    var chars = 'abcdefghijklmnopqrstuvwxyz';
+    var numberChars = '0123456789';
+    var specialChars = '!"£$%^&*()';
 
-    const usableChars = chars +
+    var usableChars = chars +
       (useUpperCase ? chars.toUpperCase() : '') +
       (useNumbers ? numberChars : '') +
       (useSpecialChars ? specialChars : '');

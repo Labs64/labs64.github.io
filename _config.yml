@@ -11,7 +11,7 @@ baseurl: /
 color-scheme: "#E14817"
 
 # Styling
-stage_banner_image: "/assets/images/labs64-stage-chevrolet.png"
+stage_banner_image: "/assets/images/labs64-stage-chevrolet.webp"
 
 dns_prefetch:
  - //go.netlicensing.io

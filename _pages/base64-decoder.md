@@ -22,7 +22,7 @@ An online tool that does exactly what it says; decodes Base64 encoding and encod
   </div>
 </form>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.1.0/base64.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.1.0/base64.min.js"></script>
 <script>
   document.getElementById('decodeBtn').onclick = function() {
     var inputData = document.getElementById('inputContainer').value;

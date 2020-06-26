@@ -43,7 +43,7 @@ Several date to millisecond calculators, useful when coding countdown timers, co
 <script>
   document.getElementById('actionBtn1').onclick = function() {
     var inputData = document.getElementById('timestamp1').value;
-    var outputData = new Date(parseInt(inputData)).toISOString();
+    var outputData = new Date(parseInt(inputData) * 1000).toISOString();
     document.getElementById('date1').value = outputData;
   };
 

@@ -1,11 +1,16 @@
 <head>
   <meta charset="utf-8" />
+  <meta name="language" content="EN">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ',' }},{{ site.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+  <meta name="subject" content="{{ site.title }} | {{ site.title }}">
+  <meta name="topic" content="Development">
   <meta name="author" content="{{ site.copyright }}">
+  <meta name="reply-to" content="{{ site.company_email }}">
   <meta name="copyright" content="{{ site.copyright }}">
   <meta name="robots" content="INDEX, FOLLOW">
+  <meta name="revisit-after" content="7 days">
 
   <meta name="yandex-verification" content="52660cdf8f013ad8" />
 
@@ -42,6 +47,8 @@
   {% include dublincore.html %}
 
   <link rel="shortcut icon" href="{{ 'favicon.ico' | absolute_url }}" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ 'labs64-logo-120x120.png' | absolute_url }}" />
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ 'labs64-logo-152x152.png' | absolute_url }}" />
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url }}">

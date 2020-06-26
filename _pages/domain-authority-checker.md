@@ -1,12 +1,20 @@
 ---
 layout: page
 title: "Domain Authority Checker"
-description: "These are set of tools related to SEO for any website. Search engine optimization is essential for many websites to gain organic search traffic."
-permalink: /da-checker/
-status: planned
+description: "Enter any domain, and this Free Bulk Moz Checker will show you top competitive SEO metrics like Domain Authority, top pages, ranking keywords, and more which are essential for many websites to gain organic search traffic."
+permalink: /domain-authority-checker/
+status: ready
 ---
 
 This domain authority checker will let you bulk check the domain authority (DA) and page authority (PA) of a list of URLs. Enter your URLs into the box below.
+
+### Free Domain Authority Checker & SEO Analysis Tools
+
+<div class="list-group">
+  <a href="https://moz.com/domain-analysis" target="_blank" rel="noopener nofollow" class="list-group-item list-group-item-action active">Free Domain SEO Analysis Tool</a>
+  <a href="https://www.checkmoz.com/" target="_blank" rel="noopener nofollow" class="list-group-item list-group-item-action">CheckMoz</a>
+  <a href="https://www.useotools.com/domain-authority-checker" target="_blank" rel="noopener nofollow" class="list-group-item list-group-item-action">USEO Tools</a>
+</div>
 
 #### Did you know?
 

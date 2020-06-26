@@ -55,3 +55,20 @@ form {
   margin-left: 0px;
   margin-right: 0px;
 }
+
+/*----------  Cookie Consent  -----------*/
+.cc_container .cc_btn:hover, .cc_container .cc_btn:active {
+    color: #fff !important;
+    background-color: #853E29 !important;
+}
+
+.cc_container .cc_btn, .cc_container .cc_btn:visited {
+    color: #fff !important;
+    background-color: #853E29 !important;
+}
+
+.cc_container a, .cc_container a:visited {
+    color: #853E29 !important;
+}
+
+/*----------  Cookie Consent (end)  -----------*/

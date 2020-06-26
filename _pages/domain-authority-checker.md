@@ -10,11 +10,13 @@ This domain authority checker will let you bulk check the domain authority (DA) 
 
 ### Free Domain Authority Checker & SEO Analysis Tools
 
+<form>
 <div class="list-group">
   <a href="https://moz.com/domain-analysis" target="_blank" rel="noopener nofollow" class="list-group-item list-group-item-action active">Free Domain SEO Analysis Tool</a>
   <a href="https://www.checkmoz.com/" target="_blank" rel="noopener nofollow" class="list-group-item list-group-item-action">CheckMoz</a>
   <a href="https://www.useotools.com/domain-authority-checker" target="_blank" rel="noopener nofollow" class="list-group-item list-group-item-action">USEO Tools</a>
 </div>
+</form>
 
 #### Did you know?
 

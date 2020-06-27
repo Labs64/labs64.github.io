@@ -8,18 +8,18 @@
       <a href="https://www.labs64.com/imprint/" target="_blank">Imprint</a> &bull; <a href="https://www.labs64.com/legal/privacy-policy/" target="_blank">Privacy Policy</a> &bull; <a href="https://www.labs64.com/contact/" target="_blank">Contact</a>
     </p>
 
-        <p class="m-0 text-center text-white">
-        {% for media in site.data.socialmedia %}
-            {% if media.url %}
-                {% if media.url contains 'http' %}
-                    {% assign link = media.url %}
-                {% else %}
-                    {% assign link = media.url | prepend: site.baseurl | prepend: site.url %}
-                {% endif %}
-                <a title="{{ media.title }}" target="_blank" href="{{ link }}"><i class="fa {{ media.class }}"></i></a>
-            {% endif %}
-        {% endfor %}
-        </p>
+    <p class="m-0 text-center text-white social-icons">
+      {% for media in site.data.socialmedia %}
+      {% if media.url %}
+      {% if media.url contains 'http' %}
+      {% assign link = media.url %}
+      {% else %}
+      {% assign link = media.url | prepend: site.baseurl | prepend: site.url %}
+      {% endif %}
+      <a title="{{ media.title }}" target="_blank" href="{{ link }}"><i class="fa {{ media.class }}"></i></a>
+      {% endif %}
+      {% endfor %}
+    </p>
   </div>
   <!-- /.container -->
 </footer>

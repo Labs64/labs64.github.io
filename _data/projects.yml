@@ -1,19 +1,19 @@
 - name: NetLicensing
   description: Monetize your digital products and services with Labs64 NetLicensing is a first-class solution in the Licensing-as-a-Service (LaaS) sector.
-  image: /assets/images/netlicensing-landing-licensing-models.webp
+  image: /assets/images/projects/netlicensing-landing-licensing-models.webp
   link: https://netlicensing.io
 
 - name: GuideChimp
   description: Create interactive guided product tours in minutes with the most non-technical friendly, lightweight and extendable library.
-  image: /assets/images/guidechimp.webp
+  image: /assets/images/projects/guidechimp.webp
   link: https://github.com/Labs64/GuideChimp
 
 - name: Laravel Boilerplate
   description: Laravel Boilerplate / Starter Kit with Gentelella Admin Theme.
-  image: /assets/images/gentelella-admin-template-preview.webp
+  image: /assets/images/projects/gentelella-admin-template-preview.webp
   link: https://github.com/Labs64/laravel-boilerplate
 
 - name: Credit Tracker
   description: Credit Tracker plugin allows you to create Media Credits Tables, meaning you can easily track which images on your site require accreditation.
-  image: /assets/images/credit-tracker.webp
+  image: /assets/images/projects/credit-tracker.webp
   link: https://wordpress.org/plugins/credit-tracker/

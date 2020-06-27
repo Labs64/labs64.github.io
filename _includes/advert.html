@@ -1,0 +1,21 @@
+{% assign image = nil %}
+
+{% for data_image in site.data.images %}
+  {% if data_image.source == include.image %}
+    {% assign image = data_image %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if image %}
+
+<div class="col-lg-12 col-md-12">
+  <div class="card text-white my-5 py-4 text-center">
+    <div class="card-body">
+      <a title="{{ image.title }}" href="{{ image.creditlink }}?utm_source=website&utm_medium=banner&utm_campaign=io_labs64_com&utm_content=image">
+        <img alt="{{ image.caption }}" class="img-fluid" src="{{ image.source | prepend: site.baseurl | prepend: site.url }}">
+      </a>
+    </div>
+  </div>
+</div>
+{% endif %}

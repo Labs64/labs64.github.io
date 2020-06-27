@@ -30,16 +30,7 @@ layout: default
             </div>
           </div>
           {% if i == 4 %}
-          <!-- Call to Action Well -->
-          <div class="col-lg-12 col-md-12">
-            <div class="card text-white my-5 py-4 text-center">
-              <div class="card-body">
-                <a title="NetLicensing Affiliates Banner" href="https://netlicensing.io/affiliates/?utm_source=toolbox&amp;utm_medium=banner&amp;utm_campaign=labs64_toolbox&amp;utm_content=image">
-                  <img alt="NetLicensing Affiliates Banner" class="img-fluid" src="https://netlicensing.io/img/netlicensing-affiliates-banner-970x250.png">
-                </a>
-              </div>
-            </div>
-          </div>
+          {% include advert.html image='/assets/images/advert/NLIC-728x90-banner1.png' %}
           {% endif %}
         {% endif %}
       {% endfor %}

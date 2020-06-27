@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Domain Authority Checker"
-description: "Enter any domain, and this Free Bulk Moz Checker will show you top competitive SEO metrics like Domain Authority, top pages, ranking keywords, and more which are essential for many websites to gain organic search traffic."
+description: "Domain Checker showing SEO metric like Domain Authority, which is essential for many websites to gain organic search traffic."
 permalink: /domain-authority-checker/
 status: ready
 ---

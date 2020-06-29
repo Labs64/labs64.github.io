@@ -53,7 +53,7 @@ JSON Formatter and Validator is very powerful online tool which helps to format 
       if (result) {
         document.getElementById("validationResult").innerHTML = "JSON is valid!";
         document.getElementById("validationResult").className = "pass";
-        var outputData = JSON.stringify(result, null, 2);
+        var outputData = JSON.stringify(result, null, 4);
         document.getElementById('outputContainer').value = outputData;
       }
     } catch(e) {

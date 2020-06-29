@@ -8,8 +8,8 @@ status: ready
 
 JSON Formatter and Validator is very powerful online tool which helps to format and validate your JSON data.
 
-- Pretty-Print unformatted JSON string; supports indentation levels: 2 spaces, 3 spaces, 4 spaces
-- Validate JSON online with clear error messages
+- Validate JSON online incl. error messages
+- Pretty-print unformatted JSON string
 
 <form>
   <div class="form-group">
@@ -18,17 +18,33 @@ JSON Formatter and Validator is very powerful online tool which helps to format 
   </div>
   <button id="actionBtn" type="button" class="btn btn-primary">Validate & Format</button>
   <br><br>
-  <h2>Validation result</h2>
+  <label for="validationResult">Validation result</label>
   <pre id="validationResult"></pre>
-  <br><br>
+  <br>
   <div class="form-group">
     <label for="outputContainer">Formatted JSON</label>
-    <textarea class="form-control" id="outputContainer" rows="5"></textarea>
+    <textarea class="form-control" id="outputContainer" rows="10"></textarea>
   </div>
 </form>
 
 <script src="{{ site.baseurl }}/assets/vendor/jsonlint/json2.js"></script>
 <script src="{{ site.baseurl }}/assets/vendor/jsonlint/jsonlint.js"></script>
+<style>
+  body {font-family: sans-serif;}
+  #validationResult {
+    padding: 1em;
+  }
+  .pass {
+    background-color: #efe;
+    color: #393;
+    border: 2px solid #393;
+  }
+  .fail {
+    background-color: #fee;
+    color: #933;
+    border: 2px solid #933;
+  }
+</style>
 <script>
   document.getElementById("actionBtn").onclick = function () {
     try {

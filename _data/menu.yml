@@ -1,15 +1,15 @@
 - title: Home
   link: /
 
-- title: Contribute
-  link: "https://github.com/Labs64/labs64.github.io#how-to-contribute"
+- title: Start Tour
+  link: "#"
+  id: start-tour
 
 - title: Credits
   link: "https://github.com/Labs64/labs64.github.io#credits"
 
-- title: Start Tour
-  link: "#"
-  id: start-tour
+- title: Contribute
+  link: "https://github.com/Labs64/labs64.github.io#how-to-contribute"
 
 - title: GitHub
   link: "https://github.com/Labs64/labs64.github.io"

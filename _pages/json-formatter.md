@@ -16,7 +16,10 @@ JSON Formatter and Validator is very powerful online tool which helps to format 
     <label for="inputContainer">JSON string</label>
     <textarea class="form-control" id="inputContainer" rows="5"></textarea>
   </div>
-  <button id="actionBtn" type="button" class="btn btn-primary">Format</button>
+  <button id="actionBtn" type="button" class="btn btn-primary">Validate & Format</button>
+  <br><br>
+  <h2>Validation result</h2>
+  <pre id="validationResult"></pre>
   <br><br>
   <div class="form-group">
     <label for="outputContainer">Formatted JSON</label>
@@ -24,12 +27,23 @@ JSON Formatter and Validator is very powerful online tool which helps to format 
   </div>
 </form>
 
+<script src="{{ site.baseurl }}/assets/vendor/jsonlint/json2.js"></script>
 <script src="{{ site.baseurl }}/assets/vendor/jsonlint/jsonlint.js"></script>
 <script>
-  document.getElementById('actionBtn').onclick = function() {
-    var inputData = document.getElementById('inputContainer').value;
-    var outputData = JSON.stringify(JSON.parse(inputData), null, 2);
-    document.getElementById('outputContainer').value = outputData;
+  document.getElementById("actionBtn").onclick = function () {
+    try {
+      var inputData = document.getElementById('inputContainer').value;
+      var result = jsonlint.parse(inputData);
+      if (result) {
+        document.getElementById("validationResult").innerHTML = "JSON is valid!";
+        document.getElementById("validationResult").className = "pass";
+        var outputData = JSON.stringify(result, null, 2);
+        document.getElementById('outputContainer').value = outputData;
+      }
+    } catch(e) {
+      document.getElementById("validationResult").innerHTML = e;
+      document.getElementById("validationResult").className = "fail";
+    }
   };
 </script>
 

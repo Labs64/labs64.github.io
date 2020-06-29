@@ -1,12 +1,15 @@
 ---
 layout: page
-title: "JSON Formatter"
-description: "JSON Formatter and JSON Validator help to format and validate your JSON data."
+title: "JSON Formatter and Validator"
+description: "JSON Formatter and Validator helps to format and validate your JSON data."
 permalink: /json-formatter/
 status: ready
 ---
 
-JSON Formatter and JSON Validator help to format and validate your JSON data.
+JSON Formatter and Validator is very powerful online tool which helps to format and validate your JSON data.
+
+- Pretty-Print unformatted JSON string; supports indentation levels: 2 spaces, 3 spaces, 4 spaces
+- Validate JSON online with clear error messages
 
 <form>
   <div class="form-group">
@@ -21,6 +24,7 @@ JSON Formatter and JSON Validator help to format and validate your JSON data.
   </div>
 </form>
 
+<script src="{{ site.baseurl }}/assets/vendor/jsonlint/jsonlint.js"></script>
 <script>
   document.getElementById('actionBtn').onclick = function() {
     var inputData = document.getElementById('inputContainer').value;

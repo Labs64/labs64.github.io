@@ -18,6 +18,11 @@ Feel free to [contribute](CONTRIBUTING.md) with pull requests, bug reports or en
 Labs64 Developers ToolBox is maintained by Labs64.
 [Contact](https://www.labs64.com/contact/) us for web app consulting, development, and training for your project or book a demo.
 
+# Credits
+
+- [GuideChimp](https://github.com/Labs64/GuideChimp) - Create interactive guided product tours in minutes with the most non-technical friendly, lightweight and extendable library
+- [Mussum Ipsum](https://github.com/diegofelipece/mussum-ipsum) - JS Lorem Ipsum generator
+- [JSON Lint](https://github.com/zaach/jsonlint) - A JSON parser and validator with a CLI
 
 # Bugs and Feedback
 

@@ -1,11 +1,11 @@
 - title: Home
   link: /
 
-- title: Labs64
-  link: "https://www.labs64.com"
-
 - title: Contribute
   link: "https://github.com/Labs64/labs64.github.io#how-to-contribute"
+
+- title: Credits
+  link: "https://github.com/Labs64/labs64.github.io#credits"
 
 - title: Start Tour
   link: "#"

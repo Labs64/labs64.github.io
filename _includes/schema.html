@@ -7,12 +7,9 @@
   "logo": "https://www.labs64.com/content/uploads/2015/04/LogoLabs64_2D_M.png",
   "alternateName": "{{ site.copyright }}",
   "sameAs": [
-    "https://www.linkedin.com/company/labs64-gmbh",
-    "https://www.xing.com/companies/labs64gmbh",
-    "https://github.com/Labs64/",
-    "https://www.facebook.com/Labs64",
-    "https://twitter.com/labs_sixty_four",
-    "https://www.youtube.com/channel/UCFKYN9Rh79JN8QlYt03ZrsA"
+{% for media in site.data.socialmedia %}
+    "{{ media.url }}",
+{% endfor %}
   ]
 }
 </script>

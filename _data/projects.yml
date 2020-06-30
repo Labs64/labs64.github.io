@@ -1,7 +1,7 @@
 - name: NetLicensing
   description: Monetize your digital products and services with Labs64 NetLicensing is a first-class solution in the Licensing-as-a-Service (LaaS) sector.
   image: /assets/images/projects/netlicensing-landing-licensing-models.webp
-  link: https://netlicensing.io
+  link: https://netlicensing.io?utm_source=projects&utm_medium=banner&utm_campaign=io_labs64_com&utm_content=teaser
 
 - name: GuideChimp
   description: Create interactive guided product tours in minutes with the most non-technical friendly, lightweight and extendable library.

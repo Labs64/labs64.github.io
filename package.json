@@ -35,7 +35,8 @@
         "jquery": "3.5.1",
         "guidechimp": "^1.6.1",
         "mipsum": "^2.4.1",
-        "jsonlint": "^1.6.3"
+        "jsonlint": "^1.6.3",
+        "parse-curl": "^0.2.6"
     },
     "devDependencies": {}
 }

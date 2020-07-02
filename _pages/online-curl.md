@@ -21,11 +21,11 @@ cURL is a popular command-line tool for transferring data to or from a server. T
   </div>
 </form>
 
-<script src="{{ site.baseurl }}/assets/vendor/parse-curl/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/curl-parser-js@0.0.3/dist/parse-curl-js.min.js"></script>
 <script>
   document.getElementById('actionBtn').onclick = function() {
     var inputData = document.getElementById('inputContainer').value;
-    var outputData = inputData;
+    var outputData = JSON.stringify(parse_curl_js.parse(inputData), null, 4);
     document.getElementById('outputContainer').value = outputData;
   };
 </script>

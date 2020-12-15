@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.css">
+<script src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/plugins/iFrames.js"></script>
+<body>
+<h1>IFrame 0</h1>
+<button id="startTour" class="start-tour">Start Tour</button>
+<script>
+
+var tour = [
+  {
+    element: '#startTour',
+    title: 'IFrame 0: button',
+  },
+  {
+    element: '#step-element',
+    iFrames: ['#iframe1', '#iframe2'],
+    title: 'IFrame 2: element',
+  }
+];
+
+GuideChimp.extend(guideChimpPluginIFrames);
+var guide  = GuideChimp(tour);
+
+document.getElementById('startTour').onclick = function () {
+  guide.start();
+};
+</script>
+
+<br><br>
+<iframe id="iframe1" src="iframe1.html" height="500" width="500" title="IFrame1"></iframe>
+</body>
+</html>

@@ -7,7 +7,7 @@ company: Labs64
 company_url: "https://www.labs64.com"
 company_email: info@labs64.com
 
-baseurl: /
+#baseurl: /
 color-scheme: "#E14817"
 
 # Styling

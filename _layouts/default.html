@@ -22,7 +22,9 @@ layout: compress
 
   <script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
   <script src="{{ site.baseurl }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  {% unless site.local %}
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ef22a1c675ddbdd"></script>
+  {% endunless %}
 </body>
 
 </html>

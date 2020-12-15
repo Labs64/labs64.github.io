@@ -8,6 +8,9 @@ Thumbs.db
 .buildpath
 .project
 .settings*
+.jekyll-cache
+_site
 node_modules/
 /dist/
 npm-debug.log*
+package-lock.json

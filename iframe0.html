@@ -14,9 +14,14 @@ var tour = [
     title: 'IFrame 0: button',
   },
   {
-    element: '#step-element',
-    iFrames: ['#iframe1', '#iframe2'],
-    title: 'IFrame 2: element',
+    element: '#div-element',
+    iFrames: ['#iframe1', '#iframe2-div'],
+    title: 'IFrame 2 (DIV): element',
+  },
+  {
+    element: '#table-element',
+    iFrames: ['#iframe1', '#iframe2-table'],
+    title: 'IFrame 2 (TABLE): element',
   }
 ];
 
@@ -29,6 +34,6 @@ document.getElementById('startTour').onclick = function () {
 </script>
 
 <br><br>
-<iframe id="iframe1" src="iframe1.html" height="500" width="500" title="IFrame1"></iframe>
+<iframe id="iframe1" src="iframe1.html" height="1000" width="1000"></iframe>
 </body>
 </html>

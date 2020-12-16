@@ -5,12 +5,25 @@
 <script src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/plugins/iFrames.js"></script>
 <body>
 <h1>IFrame 0</h1>
-<button id="startTour" class="start-tour">Start Tour</button>
+<button id="startTourDIV">Start Tour (DIV)</button>
+<button id="startTourTABLE">Start Tour (TABLE)</button>
 <script>
 
-var tour = [
+var tourDIV = [
   {
-    element: '#startTour',
+    element: '#startTourDIV',
+    title: 'IFrame 0: button',
+  },
+  {
+    element: '#div-element',
+    iFrames: ['#iframe1', '#iframe2-div'],
+    title: 'IFrame 2 (DIV): element',
+  }
+];
+
+var tourTABLE = [
+  {
+    element: '#startTourTABLE',
     title: 'IFrame 0: button',
   },
   {
@@ -26,10 +39,15 @@ var tour = [
 ];
 
 GuideChimp.extend(guideChimpPluginIFrames);
-var guide  = GuideChimp(tour);
 
-document.getElementById('startTour').onclick = function () {
-  guide.start();
+var guideDIV  = GuideChimp(tourDIV);
+document.getElementById('startTourDIV').onclick = function () {
+  guideDIV.start();
+};
+
+var guideTABLE  = GuideChimp(tourTABLE);
+document.getElementById('startTourTABLE').onclick = function () {
+  guideTABLE.start();
 };
 </script>
 

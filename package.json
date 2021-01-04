@@ -2,7 +2,7 @@
     "title": "Labs64 Developers ToolBox",
     "name": "labs64-developers-toolbox",
     "description": "Useful Online Tools like Convertors, Viewers, Minifier, Validators und many others for Developers: XML, JSON, JavaScript, Java, C#, Python, SQL",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "homepage": "https://io.labs64.com",
     "author": "Labs64",
     "contributors": [
@@ -33,7 +33,7 @@
         "@fortawesome/fontawesome-free": "5.13.1",
         "bootstrap": "4.5.0",
         "jquery": "3.5.1",
-        "guidechimp": "^1.6.1",
+        "guidechimp": "^3.0.1",
         "mipsum": "^2.4.1",
         "jsonlint": "^1.6.3"
     },

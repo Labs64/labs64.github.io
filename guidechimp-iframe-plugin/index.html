@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-<script src="https://cdn.jsdelivr.net/npm/guidechimp@2.6.3/dist/guidechimp.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/guidechimp@2.6.3/dist/guidechimp.css">
-<script src="https://cdn.jsdelivr.net/npm/guidechimp@2.6.3/dist/plugins/iFrames.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/guidechimp@2.6.3/dist/plugins/iFrames.css">
+<script src="https://cdn.jsdelivr.net/npm/guidechimp@3/dist/guidechimp.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/guidechimp@3/dist/guidechimp.css">
+<script src="https://cdn.jsdelivr.net/npm/guidechimp@3/dist/plugins/licensing.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/guidechimp@3/dist/plugins/iFrames.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/guidechimp@3/dist/plugins/iFrames.css">
 <body>
 
 <h1>GuideChimp Tour Example - <a href="https://github.com/Labs64/GuideChimp/wiki/IFrames-plugin" target="_blank">IFrames plugin</a></h1>
@@ -72,6 +73,7 @@ var tourTABLE = [
   }
 ];
 
+GuideChimp.extend(guideChimpPluginLicensing, { id: "guidechimp-demo@labs64.com" });
 GuideChimp.extend(guideChimpPluginIFrames);
 
 var guideDIV  = GuideChimp(tourDIV);

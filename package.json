@@ -33,7 +33,7 @@
         "@fortawesome/fontawesome-free": "5.13.1",
         "bootstrap": "4.5.0",
         "jquery": "3.5.1",
-        "guidechimp": "^3.0.1",
+        "guidechimp": "^4.2.1",
         "mipsum": "^2.4.1",
         "jsonlint": "^1.6.3"
     },

@@ -12,7 +12,7 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
-    - uses: chabad360/htmlproofer@master
-      with:
-        directory: "./_site"
-        arguments: --check-html --allow-hash-href --alt-ignore '/.*65055649.*/' --url-ignore https://moz.com/domain-analysis,https://www.linkedin.com/company/labs64-gmbh
+#    - uses: chabad360/htmlproofer@master
+#      with:
+#        directory: "./_site"
+#        arguments: --check-html --allow-hash-href --alt-ignore '/.*65055649.*/' --url-ignore https://moz.com/domain-analysis,https://www.linkedin.com/company/labs64-gmbh

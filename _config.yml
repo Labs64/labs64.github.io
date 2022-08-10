@@ -36,3 +36,5 @@ exclude:
 google_analytics_tracking_id:
 #yandex_metrika_tracking_id: "65055649"
 yandex_metrika_tracking_id:
+#addthis_pub_id: "ra-5ef22a1c675ddbdd"
+addthis_pub_id:

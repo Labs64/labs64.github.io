@@ -32,5 +32,7 @@ exclude:
   - .sass-cache
 
 # SEO
-google_analytics_tracking_id: "UA-32654174-9"
-yandex_metrika_tracking_id: "65055649"
+#google_analytics_tracking_id: "UA-32654174-9"
+google_analytics_tracking_id:
+#yandex_metrika_tracking_id: "65055649"
+yandex_metrika_tracking_id:

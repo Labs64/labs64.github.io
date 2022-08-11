@@ -40,6 +40,9 @@
     {% endfor %}
   {% endif %}
 
+  <script defer src="{{ '/assets/vendor/cookieconsent/cookieconsent.2.8.5.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+  <script defer src="{{ '/assets/vendor/cookieconsent/cookieconsent-init.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
   {% include analytics.html %}
   {% include yandex-metrika.html %}
   {% include opengraph.html %}

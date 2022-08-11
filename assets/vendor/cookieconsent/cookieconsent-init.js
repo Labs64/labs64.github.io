@@ -14,7 +14,7 @@ cc.run({
 
     // auto_language: null,                     // default: null; could also be 'browser' or 'document'
     // autorun: true,                           // default: true
-    // delay: 0,                                // default: 0
+    delay: 2000,                                // default: 0
     // force_consent: false,
     // hide_from_bots: false,                   // default: false
     // remove_cookie_tables: false              // default: false
@@ -70,6 +70,7 @@ cc.run({
                 }
             },
             settings_modal: {
+                title: cookie + ' Cookie settings',
                 save_settings_btn: 'Save settings',
                 accept_all_btn: 'Accept all',
                 reject_all_btn: 'Reject all',

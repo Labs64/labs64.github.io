@@ -1,11 +1,11 @@
 <script type="text/plain" data-cookiecategory="analytics">
-  console.log('analytics enabled!');
+  console.log('analytics enabled');
 </script>
 
 {% if site.google_analytics_tracking_id %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_tracking_id }}" data-cookiecategory="analytics"></script>
-<script data-cookiecategory="analytics">
+<script type="text/plain" async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_tracking_id }}" data-cookiecategory="analytics"></script>
+<script type="text/plain" data-cookiecategory="analytics">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());

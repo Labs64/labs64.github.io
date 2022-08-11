@@ -1,0 +1,11 @@
+version: '3'
+services:
+  io_labs64_com:
+    image: jekyll/jekyll:latest
+    container_name: io.labs64.com
+    volumes:
+      - '.:/srv/jekyll'
+    ports:
+      - 4000:4000
+    working_dir: /srv/jekyll
+    command: 'jekyll serve --watch --incremental --verbose --drafts --future --config _config.yml,_config_dev.yml'

@@ -7,17 +7,16 @@ var cookie = '🍪';
 cc.run({
     current_lang : 'en',
     autoclear_cookies : true,                   // default: false
-    cookie_name: 'l64_cc',                      // default: 'cc_cookie'
-    cookie_expiration : 365,                    // default: 182
+    cookie_name: 'l64_cc_202208',               // default: 'cc_cookie'
+    cookie_expiration : 90,                     // default: 182
     page_scripts: true,                         // default: false
     force_consent: true,                        // default: false
 
     // auto_language: null,                     // default: null; could also be 'browser' or 'document'
-    // autorun: true,                           // default: true
+    autorun: true,                              // default: true
     delay: 2000,                                // default: 0
-    // force_consent: false,
-    // hide_from_bots: false,                   // default: false
-    // remove_cookie_tables: false              // default: false
+    hide_from_bots: false,                      // default: false
+    remove_cookie_tables: true,                 // default: false
     // cookie_domain: location.hostname,        // default: current domain
     // cookie_path: "/",                        // default: root
     // cookie_same_site: "Lax",
@@ -38,15 +37,15 @@ cc.run({
     },
 
     onFirstAction: function(){
-        console.log('onFirstAction fired');
+        console.log('onFirstAction...');
     },
 
     onAccept: function (cookie) {
-        console.log('onAccept fired');
+        console.log('onAccept...');
     },
 
     onChange: function (cookie, changed_preferences) {
-        console.log('onChange fired');
+        console.log('onChange...');
         // If analytics category is disabled => disable google analytics
         if (!cc.allowedCategory('analytics')) {
             typeof gtag === 'function' && gtag('consent', 'update', {
@@ -58,7 +57,7 @@ cc.run({
     languages: {
         'en': {
             consent_modal: {
-                title: cookie + ' We use cookies! ',
+                title: cookie + ' We use cookies!',
                 description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
                 primary_btn: {
                     text: 'Accept all',
@@ -84,7 +83,7 @@ cc.run({
                 blocks: [
                     {
                         title: 'Cookie usage 📢',
-                        description: 'We use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="https://www.labs64.com/legal/privacy-policy/" class="cc-link">privacy policy</a>.'
+                        description: 'We use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the <a href="https://www.labs64.com/legal/privacy-policy/" class="cc-link">privacy policy</a>.'
                     }, {
                         title: 'Strictly necessary cookies',
                         description: 'These cookies are essential for the proper functioning of our website. Without these cookies, the website would not work properly',
@@ -126,7 +125,7 @@ cc.run({
                         }
                     }, {
                         title: 'More information',
-                        description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="https://labs64.com/contact">contact me</a>.',
+                        description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="https://labs64.com/contact">contact us</a>.',
                     }
                 ]
             }

@@ -25,8 +25,8 @@ cc.run({
 
     gui_options: {
         consent_modal: {
-            layout: 'box',                      // box,cloud,bar
-            position: 'bottom right',           // bottom,middle,top + left,right,center
+            layout: 'cloud',                    // box,cloud,bar
+            position: 'bottom center',          // bottom,middle,top + left,right,center
             transition: 'slide'                 // zoom,slide
         },
         settings_modal: {
@@ -90,7 +90,7 @@ cc.run({
                         title: 'Performance and Analytics cookies',
                         description: 'These cookies collect information about how visitors use a website, for instance which pages visitors go to most often, and how visitors move around the site. They help us to improve the user friendliness of a website and therefore enhance the user’s experience.',
                         toggle: {
-                            value: 'analytics',    
+                            value: 'analytics',
                             enabled: false,
                             readonly: false
                         }
@@ -98,7 +98,7 @@ cc.run({
                         title: 'Functionality and Usability cookies',
                         description: 'These cookies allow the website to remember choices you make or information you enter (such as your username, language or the region you are in) and provide enhanced, more personal features. They are also used to enable enhanced website functions.',
                         toggle: {
-                            value: 'usability',    
+                            value: 'usability',
                             enabled: false,
                             readonly: false
                         }

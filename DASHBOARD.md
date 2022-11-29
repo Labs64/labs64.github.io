@@ -1,3 +1,5 @@
+## Public Repositories
+
 | Repository | Issues | Pull Requests | Vulnerabilities | Last Commit |
 | --- | --- | --- | --- | --- |
 | Labs64/code-analysis |![GitHub issues](https://img.shields.io/github/issues-raw/Labs64/code-analysis) |	![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Labs64/code-analysis) |	![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/Labs64/code-analysis) |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/code-analysis) |
@@ -34,3 +36,24 @@
 | Labs64/swid-generator |![GitHub issues](https://img.shields.io/github/issues-raw/Labs64/swid-generator) |	![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Labs64/swid-generator) |	![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/Labs64/swid-generator) |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/swid-generator) |
 | Labs64/swid-maven-plugin |![GitHub issues](https://img.shields.io/github/issues-raw/Labs64/swid-maven-plugin) |	![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Labs64/swid-maven-plugin) |	![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/Labs64/swid-maven-plugin) |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/swid-maven-plugin) |
 | Labs64/wiki |![GitHub issues](https://img.shields.io/github/issues-raw/Labs64/wiki) |	![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Labs64/wiki) |	![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/Labs64/wiki) |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/wiki) |
+
+## Private Repositories
+
+| Repository | Issues | Pull Requests | Vulnerabilities | Last Commit |
+| --- | --- | --- | --- | --- |
+| Labs64/code-formatting | --- | --- | --- | --- |
+| Labs64/GuideChimp-chrome-editor | --- | --- | --- | --- |
+| Labs64/GuideChimp-chrome-extension | --- | --- | --- | --- |
+| Labs64/GuideChimp-plugins | --- | --- | --- | --- |
+| Labs64/l64-aws-github-runner | --- | --- | --- | --- |
+| Labs64/NetLicensing-Core | --- | --- | --- | --- |
+| Labs64/netlicensing-my | --- | --- | --- | --- |
+| Labs64/netlicensing-telegram-bot | --- | --- | --- | --- |
+| Labs64/netlicensing-ui | --- | --- | --- | --- |
+| Labs64/photolancer.zone | --- | --- | --- | --- |
+| Labs64/test-gh-actions | --- | --- | --- | --- |
+
+
+---
+
+Badges: https://shields.io

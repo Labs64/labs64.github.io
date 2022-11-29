@@ -1,36 +1,36 @@
-| Repository | Issues | Pull Requests | Vulnerabilities | Last Commit |
+| Repository | Issues | Pull Requests | Vulnerabilities | Last Commit) |
 | --- | --- | --- | --- | --- |
-| Labs64/code-analysis |	issues |	pr |	vul |	commit |
-| Labs64/credit-tracker |	issues |	pr |	vul |	commit |
-| Labs64/DigiPass |	issues |	pr |	vul |	commit |
-| Labs64/dynamic-web-cookbook |	issues |	pr |	vul |	commit |
-| Labs64/gs-securing-web |	issues |	pr |	vul |	commit |
-| Labs64/GuideChimp |	issues |	pr |	vul |	commit |
-| Labs64/GuideChimp-tours |	issues |	pr |	vul |	commit |
-| Labs64/l64-tools |	issues |	pr |	vul |	commit |
-| Labs64/labs64.com |	issues |	pr |	vul |	commit |
-| Labs64/labs64.github.io |	issues |	pr |	vul |	commit |
-| Labs64/laravel-boilerplate |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensing-API |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensing-Auth0 |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensing-Community |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensing-Demo |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensing-FastSpring |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensing-Gateway |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensing-PrestaShop |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensing-Schema |	issues |	pr |	vul |	commit |
-| Labs64/netlicensing-tomcat-sample |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensing-Wiki-template |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensing-Zapier |	issues |	pr |	vul |	commit |
-| Labs64/netlicensing.io |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensingClient-cpp |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensingClient-csharp |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensingClient-java |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensingClient-javascript |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensingClient-kotlin |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensingClient-php |	issues |	pr |	vul |	commit |
-| Labs64/NetLicensingClient-python |	issues |	pr |	vul |	commit |
-| Labs64/PluginPass |	issues |	pr |	vul |	commit |
-| Labs64/swid-generator |	issues |	pr |	vul |	commit |
-| Labs64/swid-maven-plugin |	issues |	pr |	vul |	commit |
-| Labs64/wiki |	issues |	pr |	vul |	commit |
+| Labs64/code-analysis |	issues	Labs64/code-analysis |	pr	Labs64/code-analysis |	vul	Labs64/code-analysis |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/code-analysis) |
+| Labs64/credit-tracker |	issues	Labs64/credit-tracker |	pr	Labs64/credit-tracker |	vul	Labs64/credit-tracker |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/credit-tracker) |
+| Labs64/DigiPass |	issues	Labs64/DigiPass |	pr	Labs64/DigiPass |	vul	Labs64/DigiPass |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/DigiPass) |
+| Labs64/dynamic-web-cookbook |	issues	Labs64/dynamic-web-cookbook |	pr	Labs64/dynamic-web-cookbook |	vul	Labs64/dynamic-web-cookbook |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/dynamic-web-cookbook) |
+| Labs64/gs-securing-web |	issues	Labs64/gs-securing-web |	pr	Labs64/gs-securing-web |	vul	Labs64/gs-securing-web |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/gs-securing-web) |
+| Labs64/GuideChimp |	issues	Labs64/GuideChimp |	pr	Labs64/GuideChimp |	vul	Labs64/GuideChimp |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/GuideChimp) |
+| Labs64/GuideChimp-tours |	issues	Labs64/GuideChimp-tours |	pr	Labs64/GuideChimp-tours |	vul	Labs64/GuideChimp-tours |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/GuideChimp-tours) |
+| Labs64/l64-tools |	issues	Labs64/l64-tools |	pr	Labs64/l64-tools |	vul	Labs64/l64-tools |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/l64-tools) |
+| Labs64/labs64.com |	issues	Labs64/labs64.com |	pr	Labs64/labs64.com |	vul	Labs64/labs64.com |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/labs64.com) |
+| Labs64/labs64.github.io |	issues	Labs64/labs64.github.io |	pr	Labs64/labs64.github.io |	vul	Labs64/labs64.github.io |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/labs64.github.io) |
+| Labs64/laravel-boilerplate |	issues	Labs64/laravel-boilerplate |	pr	Labs64/laravel-boilerplate |	vul	Labs64/laravel-boilerplate |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/laravel-boilerplate) |
+| Labs64/NetLicensing-API |	issues	Labs64/NetLicensing-API |	pr	Labs64/NetLicensing-API |	vul	Labs64/NetLicensing-API |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensing-API) |
+| Labs64/NetLicensing-Auth0 |	issues	Labs64/NetLicensing-Auth0 |	pr	Labs64/NetLicensing-Auth0 |	vul	Labs64/NetLicensing-Auth0 |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensing-Auth0) |
+| Labs64/NetLicensing-Community |	issues	Labs64/NetLicensing-Community |	pr	Labs64/NetLicensing-Community |	vul	Labs64/NetLicensing-Community |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensing-Community) |
+| Labs64/NetLicensing-Demo |	issues	Labs64/NetLicensing-Demo |	pr	Labs64/NetLicensing-Demo |	vul	Labs64/NetLicensing-Demo |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensing-Demo) |
+| Labs64/NetLicensing-FastSpring |	issues	Labs64/NetLicensing-FastSpring |	pr	Labs64/NetLicensing-FastSpring |	vul	Labs64/NetLicensing-FastSpring |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensing-FastSpring) |
+| Labs64/NetLicensing-Gateway |	issues	Labs64/NetLicensing-Gateway |	pr	Labs64/NetLicensing-Gateway |	vul	Labs64/NetLicensing-Gateway |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensing-Gateway) |
+| Labs64/NetLicensing-PrestaShop |	issues	Labs64/NetLicensing-PrestaShop |	pr	Labs64/NetLicensing-PrestaShop |	vul	Labs64/NetLicensing-PrestaShop |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensing-PrestaShop) |
+| Labs64/NetLicensing-Schema |	issues	Labs64/NetLicensing-Schema |	pr	Labs64/NetLicensing-Schema |	vul	Labs64/NetLicensing-Schema |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensing-Schema) |
+| Labs64/netlicensing-tomcat-sample |	issues	Labs64/netlicensing-tomcat-sample |	pr	Labs64/netlicensing-tomcat-sample |	vul	Labs64/netlicensing-tomcat-sample |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/netlicensing-tomcat-sample) |
+| Labs64/NetLicensing-Wiki-template |	issues	Labs64/NetLicensing-Wiki-template |	pr	Labs64/NetLicensing-Wiki-template |	vul	Labs64/NetLicensing-Wiki-template |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensing-Wiki-template) |
+| Labs64/NetLicensing-Zapier |	issues	Labs64/NetLicensing-Zapier |	pr	Labs64/NetLicensing-Zapier |	vul	Labs64/NetLicensing-Zapier |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensing-Zapier) |
+| Labs64/netlicensing.io |	issues	Labs64/netlicensing.io |	pr	Labs64/netlicensing.io |	vul	Labs64/netlicensing.io |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/netlicensing.io) |
+| Labs64/NetLicensingClient-cpp |	issues	Labs64/NetLicensingClient-cpp |	pr	Labs64/NetLicensingClient-cpp |	vul	Labs64/NetLicensingClient-cpp |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensingClient-cpp) |
+| Labs64/NetLicensingClient-csharp |	issues	Labs64/NetLicensingClient-csharp |	pr	Labs64/NetLicensingClient-csharp |	vul	Labs64/NetLicensingClient-csharp |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensingClient-csharp) |
+| Labs64/NetLicensingClient-java |	issues	Labs64/NetLicensingClient-java |	pr	Labs64/NetLicensingClient-java |	vul	Labs64/NetLicensingClient-java |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensingClient-java) |
+| Labs64/NetLicensingClient-javascript |	issues	Labs64/NetLicensingClient-javascript |	pr	Labs64/NetLicensingClient-javascript |	vul	Labs64/NetLicensingClient-javascript |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensingClient-javascript) |
+| Labs64/NetLicensingClient-kotlin |	issues	Labs64/NetLicensingClient-kotlin |	pr	Labs64/NetLicensingClient-kotlin |	vul	Labs64/NetLicensingClient-kotlin |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensingClient-kotlin) |
+| Labs64/NetLicensingClient-php |	issues	Labs64/NetLicensingClient-php |	pr	Labs64/NetLicensingClient-php |	vul	Labs64/NetLicensingClient-php |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensingClient-php) |
+| Labs64/NetLicensingClient-python |	issues	Labs64/NetLicensingClient-python |	pr	Labs64/NetLicensingClient-python |	vul	Labs64/NetLicensingClient-python |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/NetLicensingClient-python) |
+| Labs64/PluginPass |	issues	Labs64/PluginPass |	pr	Labs64/PluginPass |	vul	Labs64/PluginPass |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/PluginPass) |
+| Labs64/swid-generator |	issues	Labs64/swid-generator |	pr	Labs64/swid-generator |	vul	Labs64/swid-generator |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/swid-generator) |
+| Labs64/swid-maven-plugin |	issues	Labs64/swid-maven-plugin |	pr	Labs64/swid-maven-plugin |	vul	Labs64/swid-maven-plugin |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/swid-maven-plugin) |
+| Labs64/wiki |	issues	Labs64/wiki |	pr	Labs64/wiki |	vul	Labs64/wiki |	![GitHub last commit](https://img.shields.io/github/last-commit/Labs64/wiki) |

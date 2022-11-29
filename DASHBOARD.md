@@ -41,15 +41,15 @@
 | | Repository | Issues | Pull Requests | Vulnerabilities | Last Build |
 | --- | --- | --- | --- | --- | --- |
 | 🟠 | [Labs64/NetLicensing-Core](https://github.com/Labs64/NetLicensing-Core)| --- | --- | --- | [![NetLicensing Core - CI](https://github.com/Labs64/NetLicensing-Core/actions/workflows/netlicesning-core-ci.yml/badge.svg)](https://github.com/Labs64/NetLicensing-Core/actions/workflows/netlicesning-core-ci.yml) |
-| 🟠 | [Labs64/netlicensing-ui](https://github.com/Labs64/netlicensing-ui)| --- | --- | --- | --- |
-| 🟠 | [Labs64/netlicensing-my](https://github.com/Labs64/netlicensing-my)| --- | --- | --- | --- |
+| 🟠 | [Labs64/netlicensing-ui](https://github.com/Labs64/netlicensing-ui)| --- | --- | --- | [![NetLicensing UI - CI](https://github.com/Labs64/netlicensing-ui/actions/workflows/netlicensing-ui-ci.yml/badge.svg)](https://github.com/Labs64/netlicensing-ui/actions/workflows/netlicensing-ui-ci.yml) |
+| 🟠 | [Labs64/netlicensing-my](https://github.com/Labs64/netlicensing-my)| --- | --- | --- | [![NetLicensing My - CI](https://github.com/Labs64/netlicensing-my/actions/workflows/netlicensing-my-ci.yml/badge.svg)](https://github.com/Labs64/netlicensing-my/actions/workflows/netlicensing-my-ci.yml) |
 | 🟠 | [Labs64/netlicensing-telegram-bot](https://github.com/Labs64/netlicensing-telegram-bot)| --- | --- | --- | --- |
-| 🐒 | [Labs64/GuideChimp-plugins](https://github.com/Labs64/GuideChimp-plugins)| --- | --- | --- | --- |
-| 🐒 | [Labs64/GuideChimp-chrome-extension](https://github.com/Labs64/GuideChimp-chrome-extension)| --- | --- | --- | --- |
+| 🐒 | [Labs64/GuideChimp-plugins](https://github.com/Labs64/GuideChimp-plugins)| --- | --- | --- | [![GuideChimp Plugins - CI](https://github.com/Labs64/GuideChimp-plugins/actions/workflows/guidechimp-plugins-ci.yml/badge.svg)](https://github.com/Labs64/GuideChimp-plugins/actions/workflows/guidechimp-plugins-ci.yml) |
+| 🐒 | [Labs64/GuideChimp-chrome-extension](https://github.com/Labs64/GuideChimp-chrome-extension)| --- | --- | --- | [![GuideChimp Chrome - CI](https://github.com/Labs64/GuideChimp-chrome-extension/actions/workflows/guidechimp-chrome-extension-ci.yml/badge.svg)](https://github.com/Labs64/GuideChimp-chrome-extension/actions/workflows/guidechimp-chrome-extension-ci.yml) |
 | 🐒 | [Labs64/GuideChimp-chrome-editor](https://github.com/Labs64/GuideChimp-chrome-editor)| --- | --- | --- | --- |
 | ⭐ | [Labs64/code-formatting](https://github.com/Labs64/code-formatting)| --- | --- | --- | --- |
 | ⭐ | [Labs64/l64-aws-github-runner](https://github.com/Labs64/l64-aws-github-runner)| --- | --- | --- | --- |
-| ⭐ | [Labs64/test-gh-actions](https://github.com/Labs64/test-gh-actions)| --- | --- | --- | --- |
+| ⭐ | [Labs64/test-gh-actions](https://github.com/Labs64/test-gh-actions)| --- | --- | --- | [![Test workflow](https://github.com/Labs64/test-gh-actions/actions/workflows/test-container-tools.yaml/badge.svg)](https://github.com/Labs64/test-gh-actions/actions/workflows/test-container-tools.yaml) |
 
 
 ---

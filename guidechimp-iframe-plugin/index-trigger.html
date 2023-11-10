@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/guidechimp@4/dist/guidechimp.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/guidechimp@4/dist/guidechimp.css">
+<script src="https://cdn.jsdelivr.net/npm/guidechimp@4/dist/plugins/licensing.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/guidechimp@4/dist/plugins/iFrames.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/guidechimp@4/dist/plugins/triggers.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/guidechimp@4/dist/plugins/iFrames.css">
+<body>
+
+<h1>GuideChimp Tour Example - <a href="https://github.com/Labs64/GuideChimp/wiki/IFrames-plugin" target="_blank">IFrames plugin</a></h1>
+
+<button id="startTourDIV">Start Tour (DIV)</button>
+<button id="startTourTABLE">Start Tour (TABLE)</button>
+
+<br><br>
+<iframe id="iframe1" src="iframe1.html" height="500" width="1000"></iframe>
+
+<br>
+<p>Source: <a href="https://github.com/Labs64/labs64.github.io/tree/master/guidechimp-iframe-plugin" target="_blank">Labs64/labs64.github.io</a></p>
+<p>Library: <a href="https://www.labs64.com/guidechimp/" target="_blank">GuideChimp</a></p>
+
+<script>
+
+    var tourDIV = [
+        {
+            element: '#startTourDIV',
+            title: 'IFrame 0: button',
+        },
+        {
+            element: '#iframe1-headline',
+            iFrames: ['#iframe1'],
+            title: 'IFrame 1: headline',
+        },
+        {
+            element: '#div-element',
+            iFrames: ['#iframe1', '#iframe2-div'],
+            title: 'IFrame 2 (DIV): element',
+        }
+    ];
+
+    var tourTABLE = [
+        {
+            element: '#startTourTABLE',
+            title: 'IFrame 0: button',
+        },
+        {
+            element: '#iframe1-headline',
+            iFrames: ['#iframe1'],
+            title: 'IFrame 1: headline',
+        },
+        {
+            element: '#iframe2-div-headline',
+            iFrames: ['#iframe1', '#iframe2-div'],
+            title: 'IFrame 2 (DIV): headline',
+            onAfterChange(step) {
+                // get el document
+                const { iFrames = [], element } = step;
+
+                let docHandle = document;
+                const iFrameEls = iFrames.map((selector) => {
+                    const iFrame = docHandle.querySelector(selector);
+
+                    if (iFrame) {
+                        docHandle = iFrame.contentWindow.document;
+                    }
+
+                    return iFrame;
+                });
+
+                const lastIFrame = iFrameEls[iFrameEls.length -1];
+
+                if (lastIFrame) {
+                    const iFrameDoc = lastIFrame.contentWindow.document;
+                    const el = iFrameDoc.querySelector(element);
+
+                    el.addEventListener('click', () => {
+                        alert('Clicked');
+                    })
+                }
+            },
+        },
+        {
+            element: '#div-element',
+            iFrames: ['#iframe1', '#iframe2-div'],
+            title: 'IFrame 2 (DIV): element',
+        },
+        {
+            element: '#iframe2-table-headline',
+            iFrames: ['#iframe1', '#iframe2-table'],
+            title: 'IFrame 2 (TABLE): headline',
+        },
+        {
+            element: '#table-element',
+            iFrames: ['#iframe1', '#iframe2-table'],
+            title: 'IFrame 2 (TABLE): element',
+        },
+        {
+            element: '#table-image1',
+            iFrames: ['#iframe1', '#iframe2-table'],
+            title: 'IFrame 2 (TABLE): image element',
+        },
+        {
+            element: '#table-image2',
+            iFrames: ['#iframe1', '#iframe2-table'],
+            title: 'IFrame 2 (TABLE): image in DIV element',
+        }
+    ];
+
+    GuideChimp.extend(guideChimpPluginLicensing, { id: "guidechimp-demo@labs64.com" });
+    GuideChimp.extend(guideChimpPluginIFrames);
+
+    var guideDIV  = GuideChimp(tourDIV);
+    document.getElementById('startTourDIV').onclick = function () {
+        guideDIV.start();
+    };
+
+    var guideTABLE  = GuideChimp(tourTABLE);
+    document.getElementById('startTourTABLE').onclick = function () {
+        guideTABLE.start();
+    };
+</script>
+
+</body>
+</html>

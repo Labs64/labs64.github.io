@@ -53,6 +53,7 @@
             element: '#iframe2-div-headline',
             iFrames: ['#iframe1', '#iframe2-div'],
             title: 'IFrame 2 (DIV): headline',
+            description: 'Click on "IFrame 2 (DIV)" to trigger event',
             onAfterChange(step) {
                 // get el document
                 const { iFrames = [], element } = step;
@@ -75,7 +76,7 @@
                     const el = iFrameDoc.querySelector(element);
 
                     el.addEventListener('click', () => {
-                        alert('Clicked');
+                        alert('IFrame 2 (DIV) clicked');
                     })
                 }
             },

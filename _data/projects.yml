@@ -1,3 +1,8 @@
+- name: Labs64.IO Ecosystem
+  description: Labs64.IO Ecosystem offers a comprehensive suite of interconnected microservices designed to streamline and automate critical business workflow steps.
+  image: https://labs64.io/img/labs64.io-promo-04.png
+  link: https://labs64.io
+
 - name: NetLicensing
   description: Monetize your digital products and services with Labs64 NetLicensing is a first-class solution in the Licensing-as-a-Service (LaaS) sector.
   image: /assets/images/projects/netlicensing-landing-licensing-models.webp
@@ -13,7 +18,7 @@
   image: /assets/images/projects/gentelella-admin-template-preview.webp
   link: https://github.com/Labs64/laravel-boilerplate
 
-- name: Credit Tracker
-  description: Credit Tracker plugin allows you to create Media Credits Tables, meaning you can easily track which images on your site require accreditation.
-  image: /assets/images/projects/credit-tracker.webp
-  link: https://wordpress.org/plugins/credit-tracker/
+#- name: Credit Tracker
+#  description: Credit Tracker plugin allows you to create Media Credits Tables, meaning you can easily track which images on your site require accreditation.
+#  image: /assets/images/projects/credit-tracker.webp
+#  link: https://wordpress.org/plugins/credit-tracker/

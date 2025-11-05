@@ -13,10 +13,15 @@
   image: /assets/images/projects/guidechimp.webp
   link: https://www.labs64.com/guidechimp/
 
-- name: Laravel Boilerplate
-  description: Laravel Boilerplate / Starter Kit with Gentelella Admin Theme.
-  image: /assets/images/projects/gentelella-admin-template-preview.webp
-  link: https://github.com/Labs64/laravel-boilerplate
+- name: GammaLedger
+  description: Master your trading performance by analyzing results, tracking portfolio dynamics, and optimizing options strategies for continuous improvement.
+  image: /assets/images/projects/gammaledger-dashboard.png
+  link: https://gammaledger.com
+
+#- name: Laravel Boilerplate
+#  description: Laravel Boilerplate / Starter Kit with Gentelella Admin Theme.
+#  image: /assets/images/projects/gentelella-admin-template-preview.webp
+#  link: https://github.com/Labs64/laravel-boilerplate
 
 #- name: Credit Tracker
 #  description: Credit Tracker plugin allows you to create Media Credits Tables, meaning you can easily track which images on your site require accreditation.
